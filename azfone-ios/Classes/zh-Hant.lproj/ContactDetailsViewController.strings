@@ -1,0 +1,21 @@
+
+/* Class = "IBUIButton"; accessibilityLabel = "Edit"; ObjectID = "8"; */
+"8.accessibilityLabel" = "修改";
+
+/* Class = "IBUIButton"; normalTitle = "Edit"; ObjectID = "8"; */
+"8.normalTitle" = "修改";
+
+/* Class = "IBUIButton"; selectedTitle = "Ok"; ObjectID = "8"; */
+"8.selectedTitle" = "Ok";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Back"; ObjectID = "9"; */
+"9.accessibilityLabel" = "倒回";
+
+/* Class = "IBUIButton"; normalTitle = "Back"; ObjectID = "9"; */
+"9.normalTitle" = "倒回";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Cancel"; ObjectID = "47"; */
+"47.accessibilityLabel" = "取消";
+
+/* Class = "IBUIButton"; normalTitle = "Cancel"; ObjectID = "47"; */
+"47.normalTitle" = "取消";

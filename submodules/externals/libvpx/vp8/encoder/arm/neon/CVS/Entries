@@ -1,0 +1,9 @@
+/denoising_neon.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/fastquantizeb_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/picklpf_arm.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/shortfdct_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/subtract_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp8_memcpy_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp8_mse16x16_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp8_shortwalsh4x4_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+D

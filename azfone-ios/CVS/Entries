@@ -1,0 +1,23 @@
+/.gitignore/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/.gitmodules/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/COPYING/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ImageOptim.sh/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/Linphone.clr/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/NEWS/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/README.md/1.2/Tue Nov 25 04:32:45 2014//
+/UI.md/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/disable-security.patch/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/iTunesArtwork/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/linphone_Prefix.pch/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/main.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+D/Classes////
+D/LinphoneTester////
+D/LinphoneTester Tests////
+D/Resources////
+D/Settings////
+D/Tools////
+D/liblinphone-sdk////
+D/liblinphone-tutorials////
+D/linphone.xcodeproj////
+D/submodules////
+/linphone-Info.plist/1.2/Wed Nov 26 01:06:53 2014//

@@ -1,0 +1,36 @@
+/.cproject/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/.gitignore/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/.project/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/ABOUT-NLS/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/AUTHORS/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/CMakeLists.txt/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/COPYING/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/ChangeLog/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/FindMS2.cmake.in/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/Makefile.am/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/NEWS/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/README/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/README-ANDROID/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/acinclude.m4/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/autogen.sh/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/config.rpath/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/configure.ac/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/define-filters.awk/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/define-ms_base_filter_descs.awk/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/define-ms_voip_filter_descs.awk/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/extract-filters-names.awk/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/mediastreamer-config.h.cmake/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/mediastreamer.pc.in/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/mediastreamer2.spec.in/1.1.1.1/Thu Nov 13 04:07:33 2014//
+/pkg.list/1.1.1.1/Thu Nov 13 04:07:33 2014//
+D/build////
+D/cmake////
+D/debian////
+D/help////
+D/include////
+D/java////
+D/m4////
+D/po////
+D/src////
+D/tester////
+D/tools////

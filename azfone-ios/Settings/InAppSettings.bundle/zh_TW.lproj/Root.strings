@@ -1,0 +1,59 @@
+/* SIP account */
+"SIP account" = "SIP 帳戶";
+
+/* Wizard */
+"Wizard" = "帳戶助理";
+
+/* User name */
+"User name" = "帳號";
+
+/* Password */
+"Password" = "密碼";
+
+/* Domain */
+"Domain" = "域名";
+
+/* Proxy */
+"Proxy" = "代理伺服器";
+
+/* Outbound proxy */
+"Outbound proxy" = "外出代理伺服器";
+
+/* Settings */
+"Settings" = "設定";
+
+/* Enable video */
+"Enable video" = "啔動視訊";
+
+/* Audio */
+"Audio" = "音訊";
+
+/* Video */
+"Video" = "視訊";
+
+/* Call */
+"Call" = "撥號";
+
+/* Network */
+"Network" = "網路";
+
+/* Advanced */
+"Advanced" = "進階";
+
+/*  */
+"" = "";
+
+/* About */
+"About" = "關於";
+
+/* Quit */
+"Quit" = "離開";
+
+/* Release */
+"Release" = "解除";
+
+/* Clear cache */
+"Clear cache" = "清除暫存";
+
+/* More options */
+"More options" = "更多設定";

@@ -1,0 +1,20 @@
+/Makefile/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/audioconvert.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/audioconvert.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/dither.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/dither_template.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/libswresample.v/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/log2_tab.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/noise_shaping_data.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/rematrix.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/rematrix_template.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/resample.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/resample_template.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/soxr_resample.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/swresample-test.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/swresample.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/swresample.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/swresample_internal.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/version.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+D/arm////
+D/x86////

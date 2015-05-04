@@ -1,0 +1,309 @@
+/* No comment provided by engineer. */
+" (Aborted)" = " (Прервано)";
+
+/* No comment provided by engineer. */
+" (Declined)" = " (Запрещено)";
+
+/* No comment provided by engineer. */
+" (Missed)" = " (Отсутствует)";
+
+/* No comment provided by engineer. */
+"%@\nReason was: %@" = "%1$@\nПо причине: %2$@";
+
+/* No comment provided by engineer. */
+"'%@' not registered" = "'%@' не зарегистрирован";
+
+/* No comment provided by engineer. */
+"'%@' would like to enable video" = "'%@' хотел бы включить видео";
+
+/* No comment provided by engineer. */
+"About" = "О программе";
+
+/* No comment provided by engineer. */
+"Accept" = "Принять";
+
+/* No comment provided by engineer. */
+"Account creation issue" = "Ошибка при создании учётной записи";
+
+/* No comment provided by engineer. */
+"Account validation issue" = "Ошибка при проверке учётной записи";
+
+/* No comment provided by engineer. */
+"Address book" = "Адресная книга";
+
+/* No comment provided by engineer. */
+"Alert" = "Предупреждение";
+
+/* No comment provided by engineer. */
+"Answer" = "Ответить";
+
+/* No comment provided by engineer. */
+"Average" = "Средний";
+
+/* No comment provided by engineer. */
+"Bad credentials, check your account settings" = "Имя пользователя/пароль неверны, проверьте Ваши настройки";
+
+/* No comment provided by engineer. */
+"Battery is running low. Stop video ?" = "Батарея разряжена, остановить видео ?";
+
+/* No comment provided by engineer. */
+"Call failed" = "Звонок не удался";
+
+/* No comment provided by engineer. */
+"Camera" = "Камера";
+
+/* No comment provided by engineer. */
+"Can't create the account. Please try again." = "Невозможно создать учётную запись. Пожалуйста попробуйте ещё.";
+
+/* No comment provided by engineer. */
+"Cancel" = "Отмена";
+
+/* No comment provided by engineer. */
+"Cannot call %@" = "Невозможно позвонить %@";
+
+/* No comment provided by engineer. */
+"Cannot make call" = "Невозможно совершить звонок";
+
+/* No comment provided by engineer. */
+"Cannot transfer file from remote contact" = "Невозможно принять файл от Вашего собеседника";
+
+/* No comment provided by engineer. */
+"Cannot transfer file to remote contact" = "Невозможно передать файл Вашему собеседнику";
+
+/* No comment provided by engineer. */
+"Cannot write image to photo library" = "Невозможно записать картинку в библиотеку фотографий";
+
+/* No comment provided by engineer. */
+"Check error(s)" = "Проверьте ошибку(и)";
+
+/* No comment provided by engineer. */
+"Check issue" = "Проверьте ошибку";
+
+/* No comment provided by engineer. */
+"Choose the image size" = "Выберите размер изображения";
+
+/* No comment provided by engineer. */
+"Communication issue" = "Ошибка связи";
+
+/* No comment provided by engineer. */
+"Communication issue (%@)" = "Ошибка связи (%@)";
+
+/* No comment provided by engineer. */
+"Confirm the following SAS with the peer:\n%s" = "Подтвердите SAS собеседника:\n%s";
+
+/* No comment provided by engineer. */
+"Continue" = "Продолжить";
+
+/* No comment provided by engineer. */
+"Continue video" = "Продолжить видео";
+
+/* No comment provided by engineer. */
+"Decline" = "Отказать";
+
+/* ICE has established a direct connection to the remote host */
+"Direct connection" = "Прямое соединение";
+
+/* No comment provided by engineer. */
+"Dismiss" = "Убрать";
+
+/* No comment provided by engineer. */
+"Either configure a SIP proxy server from settings prior to place a call or use a valid SIP address (I.E sip:john@example.net)" = "Либо укажите SIP прокси сервер в настройках перед звонком, либо используйте адрес SIP в правильном формате (например sip:john@example.net)";
+
+/* No comment provided by engineer. */
+"Either configure a SIP proxy server from settings prior to send a message or use a valid SIP address (I.E sip:john@example.net)" = "Либо укажите SIP прокси сервер в настройках перед отсылкой сообщения, либо используйте адрес SIP в правильном формате (например sip:john@example.net)";
+
+/* No comment provided by engineer. */
+"Enter your password" = "Введите пароль";
+
+/* No comment provided by engineer. */
+"Enter your username" = "Введите имя пользователя";
+
+/* ICE processing has failed */
+"Failed" = "Не удалось";
+
+/* No comment provided by engineer. */
+"First name" = "Имя";
+
+/* No comment provided by engineer. */
+"GNU General Public License V2 " = "GNU General Public License V2 ";
+
+/* No comment provided by engineer. */
+"http://www.linphone.org" = "http://www.linphone.org";
+
+/* No comment provided by engineer. */
+"IC_MSG" = "Входящий звонок от %@";
+
+/* No comment provided by engineer. */
+"IM_MSG" = "Входящее сообщение от %@";
+
+/* ICE process is in progress */
+"In progress" = "В процессе";
+
+/* No comment provided by engineer. */
+"Incoming call" = "Входящий звонок";
+
+/* No comment provided by engineer. */
+"Invalid SIP address" = "Неверный адрес SIP";
+
+/* No comment provided by engineer. */
+"Last name" = "Фамилия";
+
+/* No comment provided by engineer. */
+"Low bandwidth" = "Низкая сорость подключения";
+
+/* No comment provided by engineer. */
+"Maximum" = "Максимум";
+
+/* No comment provided by engineer. */
+"Minimum" = "Минимум";
+
+/* ICE has established a connection to the remote host through one or several NATs */
+"NAT(s) connection" = "Соединение(я) NAT";
+
+/* No comment provided by engineer. */
+"Network down" = "Нет сети";
+
+/* No comment provided by engineer. */
+"Network Error" = "Ошибка сети";
+
+/* No comment provided by engineer. */
+"No codec" = "Нет кодека";
+
+/* No comment provided by engineer. */
+"No microphone" = "Нет микрофона";
+
+/* No comment provided by engineer. */
+"No SIP account configured" = "Не настроена учётная запись SIP";
+
+/* ICE has not been activated for this call */
+"Not activated" = "Не активировано";
+
+/* No comment provided by engineer. */
+"Not registered" = "Не зарегистрировано";
+
+/* No comment provided by engineer. */
+"Ok" = "Ок";
+
+/* No comment provided by engineer. */
+"Outgoing call" = "Исходящий звонок";
+
+/* No comment provided by engineer. */
+"Phone number" = "Номер телефона";
+
+/* No comment provided by engineer. */
+"Phone numbers" = "Телефонные номера";
+
+/* No comment provided by engineer. */
+"Photo library" = "Библиотека фотографий";
+
+/* No comment provided by engineer. */
+"Illegal character in username: %@" = "Illegal character in username: %@";
+
+/* No comment provided by engineer. */
+"Please enter a domain.\n" = "Пожалуйста введите сервер.\n";
+
+/* No comment provided by engineer. */
+"Please enter a username.\n" = "Пожалуйста введите имя пользователя.\n";
+
+/* No comment provided by engineer. */
+"Please make sure your device is connected to the internet and double check your SIP account configuration in the settings." = "Пожалуйста убедитесь что Ваше устройство подключено к сети и перепроверьте настройки учётной записи SIP в настройках.";
+
+/* No comment provided by engineer. */
+"Please terminate GSM call" = "Пожалуйста прервите звонок в сети GSM";
+
+/* No comment provided by engineer. */
+"Registered" = "Зарегистирован";
+
+/* No comment provided by engineer. */
+"Registration failed" = "Ошибка регистрации";
+
+/* No comment provided by engineer. */
+"Registration failure" = "Ошибка регистрации";
+
+/* No comment provided by engineer. */
+"Registration in progress" = "Идёт регистрация";
+
+/* ICE has established a connection through a relay */
+"Relay connection" = "Ретранслируемое соединение";
+
+/* No comment provided by engineer. */
+"Remove" = "Убрать";
+
+/* No comment provided by engineer. */
+"Remove trust in the peer?" = "Перестать доверять собеседнику?";
+
+/* No comment provided by engineer. */
+"Select picture source" = "Выбрать источник изображения";
+
+/* */
+"Settings" = "Настройки";
+
+/* No comment provided by engineer. */
+"Show" = "Показать";
+
+/* No comment provided by engineer. */
+"SIP address" = "адрес SIP";
+
+/* No comment provided by engineer. */
+"SIP addresses" = "адреса SIP";
+
+/* No comment provided by engineer. */
+"SIP server unreachable" = "сервер SIP недоступен";
+
+/* No comment provided by engineer. */
+"Stop video" = "Остановить видео";
+
+/* No comment provided by engineer. */
+"The email is invalid.\n" = "Недопустимы адрес электронной почты.\n";
+
+/* No comment provided by engineer. */
+"The password is too short (minimum %d characters).\n" = "Слишком короткий пароль (минимум %d знаков).\n";
+
+/* No comment provided by engineer. */
+"The passwords are different.\n" = "Введённые пароли отличаются.\n";
+
+/* No comment provided by engineer. */
+"The username is too short (minimum %d characters).\n" = "Слишком короткое имя пользователя (минимум %d знаков).\n";
+
+/* No comment provided by engineer. */
+"There is no network connection available, enable WIFI or WWAN prior to place a call" = "Нет сети, подключите WIFI или WWAN перед тем как звонить";
+
+/* No comment provided by engineer. */
+"Transfer error" = "Ошибка передачи";
+
+/* No comment provided by engineer. */
+"Unknown" = "Неизвестен";
+
+/* No comment provided by engineer. */
+"Unknown error" = "Неизвестная ошибка";
+
+/* No comment provided by engineer. */
+"Username already exists" = "Имя пользователя уже используется";
+
+/* No comment provided by engineer. */
+"Video cannot be activated because of low bandwidth condition, only audio is available" = "Видео не может быть активировано из-за низкой скорости подключения, доступно только аудио";
+
+/* No comment provided by engineer. */
+"You missed a call from %@" = "You missed a call from %@";
+
+/* No comment provided by engineer. */
+"You must authorize the application to have access to address book.\nToggle the application in Settings > Privacy > Contacts" = "Вам нужно разрешить программе пользоваться адресной книгой.\nПожалуйста переключите в  Settings > Privacy > Contacts";
+
+/* No comment provided by engineer. */
+"You need to plug a microphone to your device to use this application." = "Вам нужно подключить микрофон чтобы пользоваться приложением.";
+
+/* No comment provided by engineer. */
+"Your account is not validate yet." = "Ваша учётная запись ещё не подтверждена.";
+
+/* No comment provided by engineer. */
+"© 2010-2012 Belledonne Communications " = "© 2010-2012 Belledonne Communications ";
+
+/* Placeholder for the address in DialerView */
+"Enter an address" = "Введите адрес SIP или номер телефона...";
+"%@ is composing..." = "%@ is composing...";
+"Resend" = "Resend";
+
+/* Alert view for Wizard in Settings */
+"Warning" = "Warning";
+"Launching the Wizard will delete any existing proxy config.\nAre you sure to want it?" = "Launching the Wizard will delete any existing proxy config.\nAre you sure to want it?";
+"Launch Wizard" = "Launch Wizard";

@@ -1,0 +1,7 @@
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "82"; */
+"82.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "Back"; ObjectID = "90"; */
+"90.normalTitle" = "返回";
+"103.normalTitle" = "邀請";

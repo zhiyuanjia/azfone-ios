@@ -1,0 +1,63 @@
+/* Codecs */
+"Codecs" = "Codecs";
+
+/* AMR */
+"AMR" = "AMR";
+
+/* Speex 16Khz */
+"Speex 16Khz" = "Speex 16Khz";
+
+/* Speex 8Khz */
+"Speex 8Khz" = "Speex 8Khz";
+
+/* Silk 24Khz */
+"Silk 24Khz" = "Silk 24Khz";
+
+/* Silk 16Khz */
+"Silk 16Khz" = "Silk 16Khz";
+
+/* G722 */
+"G722" = "G722";
+
+/* G729 */
+"G729" = "G729";
+
+/* GSM */
+"GSM" = "GSM";
+
+/* ILBC */
+"ILBC" = "ILBC";
+
+/* PCMU */
+"PCMU" = "PCMU";
+
+/* PCMA */
+"PCMA" = "PCMA";
+
+/* Advanced */
+"Advanced" = "Avancés";
+
+/* Playback gain */
+"Playback gain" = "Gain sortie";
+
+/* Microphone gain */
+"Microphone gain" = "Gain microphone";
+
+/* Adaptive rate control */
+"Adaptive rate control" = "Contrôle de débit";
+
+/* Network bitrate limit */
+"Network bitrate limit" = "Limite de débit réseau";
+
+/* Voice processing */
+"Enable Voice Processing"="Optimiser le son pour la VoIP";
+
+/* Bass Boost / equalizer */
+"Enable Bass Boost"="Activer Bass Boost";
+
+/* Adaptative */
+"Adaptive rate algorithm"="Adaptation du débit";
+
+"Simple"="Simple";
+
+"Stateful"="Stateful";

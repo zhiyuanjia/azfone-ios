@@ -1,0 +1,27 @@
+/* Automatically start video */
+"Automatically start" = "自動啟動";
+
+/* Automatically accept video */
+"Automatically accept" = "自動接受";
+
+/* Show self view */
+"Show self view" = "顯視自拍";
+
+/* Show preview */
+"Show preview" = "顯視預覽";
+
+/* Preferred video size */
+"Preferred video size" = "視訊大小";
+
+/* Codecs */
+"Codecs" = "編碼";
+
+/* mpeg4 */
+"mpeg4" = "mpeg4";
+
+/* h264 */
+"h264" = "h264";
+
+/* VP8 */
+"VP8" = "VP8";
+

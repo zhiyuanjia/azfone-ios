@@ -1,0 +1,16 @@
+/.cvsignore/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/Makefile.am/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/getopt.c/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/getopt1.c/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/getopt_win.h/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/skeleton.c/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/skeleton.h/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/speexdec.1/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/speexdec.c/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/speexenc.1/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/speexenc.c/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/wav_io.c/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/wav_io.h/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/wave_out.c/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/wave_out.h/1.1.1.1/Thu Nov 13 04:07:32 2014//
+D

@@ -1,0 +1,24 @@
+
+/* Class = "IBUIButton"; accessibilityLabel = "All contacts filter"; ObjectID = "4"; */
+"4.accessibilityLabel" = "全部聯絡人挑選";
+
+/* Class = "IBUIButton"; normalTitle = "All"; ObjectID = "4"; */
+"4.normalTitle" = "全部";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Linphone contacts filter"; ObjectID = "5"; */
+"5.accessibilityLabel" = "Linphone 聯絡人挑選";
+
+/* Class = "IBUIButton"; normalTitle = "Linphone"; ObjectID = "5"; */
+"5.normalTitle" = "Linphone";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Add contact"; ObjectID = "6"; */
+"6.accessibilityLabel" = "加入聯絡";
+
+/* Class = "IBUIButton"; normalTitle = "Add contact"; ObjectID = "6"; */
+"6.normalTitle" = "加入聯絡";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Back"; ObjectID = "87"; */
+"87.accessibilityLabel" = "倒回";
+
+/* Class = "IBUIButton"; normalTitle = "Back"; ObjectID = "87"; */
+"87.normalTitle" = "倒回";

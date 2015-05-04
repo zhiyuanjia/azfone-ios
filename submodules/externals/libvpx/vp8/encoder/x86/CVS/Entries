@@ -1,0 +1,16 @@
+/dct_mmx.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/dct_sse2.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/denoising_sse2.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/encodeopt.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/fwalsh_sse2.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/quantize_mmx.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/quantize_sse2.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/quantize_sse4.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/quantize_ssse3.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/ssim_opt.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/subtract_mmx.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/subtract_sse2.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/temporal_filter_apply_sse2.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp8_enc_stubs_mmx.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp8_enc_stubs_sse2.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+D

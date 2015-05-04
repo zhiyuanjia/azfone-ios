@@ -1,0 +1,33 @@
+/.gitattributes/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/.gitignore/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/AUTHORS/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/COPYING/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/ChangeLog/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/LICENSE_PLEASE_READ.txt/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/Makefile.am/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/Makefile.mips/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/Makefile.unix/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/NEWS/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/README/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/README.draft/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/autogen.sh/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/celt_headers.mk/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/celt_sources.mk/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/configure.ac/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/opus-uninstalled.pc.in/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/opus.m4/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/opus.pc.in/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/opus_headers.mk/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/opus_sources.mk/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/silk_headers.mk/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/silk_sources.mk/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/update_version/1.1.1.1/Thu Nov 13 04:07:31 2014//
+/version.mk/1.1.1.1/Thu Nov 13 04:07:31 2014//
+D/celt////
+D/doc////
+D/include////
+D/m4////
+D/silk////
+D/src////
+D/tests////
+D/win32////

@@ -1,0 +1,37 @@
+/.gitignore/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/CHANGES/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/CMakeLists.txt/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/LICENSE/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/Makefile.in/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/README/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/TODO/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/VERSION/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/config.guess/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/config.h.cmake/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/config.h_win32vc7/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/config.hw/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/config.sub/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/config_in.h/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/configure/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/configure.in/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/install-sh/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/install-win.bat/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/linphone-srtp.spec.in/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/srtp.def/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/srtp.sln/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/srtp.vcproj/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/srtp7.sln/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/srtp7.vcproj/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/test_inline.c/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/timing/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/undos.sh/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/update.sh/1.1.1.1/Thu Nov 13 04:07:32 2014//
+D/build////
+D/crypto////
+D/debian////
+D/doc////
+D/include////
+D/releases////
+D/srtp////
+D/tables////
+D/test////

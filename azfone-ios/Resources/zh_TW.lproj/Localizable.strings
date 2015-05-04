@@ -1,0 +1,304 @@
+/* No comment provided by engineer. */
+" (Aborted)" = " (中斷)";
+
+/* No comment provided by engineer. */
+" (Declined)" = " (拒絕)";
+
+/* No comment provided by engineer. */
+" (Missed)" = " (未接)";
+
+/* No comment provided by engineer. */
+"%@\nReason was: %@" = "%1$@\n理由 是: %2$@";
+
+/* No comment provided by engineer. */
+"'%@' not registered" = "'%@' 未註册";
+
+/* No comment provided by engineer. */
+"'%@' would like to enable video" = "'%@' 要求啔動視訊";
+
+/* No comment provided by engineer. */
+"About" = "關於";
+
+/* No comment provided by engineer. */
+"Accept" = "接受";
+
+/* No comment provided by engineer. */
+"Account creation issue" = "帳戶開啔事宜";
+
+/* No comment provided by engineer. */
+"Account validation issue" = "帳戶驗證事宜";
+
+/* No comment provided by engineer. */
+"Address book" = "通訊錄";
+
+/* No comment provided by engineer. */
+"Alert" = "警告";
+
+/* No comment provided by engineer. */
+"Answer" = "應答";
+
+/* No comment provided by engineer. */
+"Average" = "平均";
+
+/* No comment provided by engineer. */
+"Bad credentials, check your account settings" = "憑證錯誤, 請檢查帳戶設定";
+
+/* No comment provided by engineer. */
+"Battery is running low. Stop video ?" = "電池電量不足. 停止視訊 ?";
+
+/* No comment provided by engineer. */
+"Call failed" = "通話失敗";
+
+/* No comment provided by engineer. */
+"Camera" = "視訊鏡頭";
+
+/* No comment provided by engineer. */
+"Can't create the account. Please try again." = "無法開啔帳戶. 請重試.";
+
+/* No comment provided by engineer. */
+"Cancel" = "取消";
+
+/* No comment provided by engineer. */
+"Cannot call %@" = "無法接通 %@";
+
+/* No comment provided by engineer. */
+"Cannot make call" = "無法打電話";
+
+/* No comment provided by engineer. */
+"Cannot transfer file from remote contact" = "無法從遠處傳送檔案";
+
+/* No comment provided by engineer. */
+"Cannot transfer file to remote contact" = "無法傳送檔案至遠方";
+
+/* No comment provided by engineer. */
+"Cannot write image to photo library" = "影像無法寫入";
+
+/* No comment provided by engineer. */
+"Check error(s)" = "查出錯誤";
+
+/* No comment provided by engineer. */
+"Check issue" = "檢查送出";
+
+/* No comment provided by engineer. */
+"Choose the image size" = "選擇影像大小";
+
+/* No comment provided by engineer. */
+"Communication issue" = "通訊因素";
+
+/* No comment provided by engineer. */
+"Communication issue (%@)" = "通訊因素 (%@)";
+
+/* No comment provided by engineer. */
+"Confirm the following SAS with the peer:\n%s" = "與對方確認 SAS:\n%s";
+
+/* No comment provided by engineer. */
+"Continue" = "繼續";
+
+/* No comment provided by engineer. */
+"Continue video" = "繼續視訊";
+
+/* No comment provided by engineer. */
+"Decline" = "拒絕";
+
+/* ICE has established a direct connection to the remote host */
+"Direct connection" = "直接連接";
+
+/* No comment provided by engineer. */
+"Dismiss" = "中斷";
+
+/* No comment provided by engineer. */
+"Either configure a SIP proxy server from settings prior to place a call or use a valid SIP address (I.E sip:john@example.net)" = "請設定使用 SIP 代理器或使用有效的 SIP 地址 (例 sip:john@example.net)";
+
+/* No comment provided by engineer. */
+"Either configure a SIP proxy server from settings prior to send a message or use a valid SIP address (I.E sip:john@example.net)" = "請設定使用 SIP 代理器或使用有效的 SIP 地址 (例 sip:john@example.net)";
+
+/* No comment provided by engineer. */
+"Enter your password" = "輸入密碼";
+
+/* No comment provided by engineer. */
+"Enter your username" = "輸入帳號";
+
+/* ICE processing has failed */
+"Failed" = "失敗";
+
+/* No comment provided by engineer. */
+"First name" = "名字";
+
+/* No comment provided by engineer. */
+"GNU General Public License V2 " = "GNU General Public License V2 ";
+
+/* No comment provided by engineer. */
+"http://www.linphone.org" = "http://www.linphone.org";
+
+/* No comment provided by engineer. */
+"IC_MSG" = "來電方: %@";
+
+/* No comment provided by engineer. */
+"IM_MSG" = "來信方 %@";
+
+/* ICE process is in progress */
+"In progress" = "進行中";
+
+/* No comment provided by engineer. */
+"Incoming call" = "來電";
+
+/* No comment provided by engineer. */
+"Invalid SIP address" = "無效的 SIP 地址";
+
+/* No comment provided by engineer. */
+"Last name" = "姓";
+
+/* No comment provided by engineer. */
+"Low bandwidth" = "低頻寬";
+
+/* No comment provided by engineer. */
+"Maximum" = "最大";
+
+/* No comment provided by engineer. */
+"Minimum" = "最小";
+
+/* ICE has established a connection to the remote host through one or several NATs */
+"NAT(s) connection" = "NAT(s) 連接";
+
+/* No comment provided by engineer. */
+"Network down" = "網路斷線";
+
+/* No comment provided by engineer. */
+"Network Error" = "網路錯誤";
+
+/* No comment provided by engineer. */
+"No codec" = "沒有編碼器";
+
+/* No comment provided by engineer. */
+"No microphone" = "沒有麥克風";
+
+/* No comment provided by engineer. */
+"No SIP account configured" = "沒有 SIP 帳號設定";
+
+/* ICE has not been activated for this call */
+"Not activated" = "未啔動";
+
+/* No comment provided by engineer. */
+"Not registered" = "未註册";
+
+/* No comment provided by engineer. */
+"Ok" = "Ok";
+
+/* No comment provided by engineer. */
+"Outgoing call" = "外播的電話";
+
+/* No comment provided by engineer. */
+"Phone number" = "電話號碼";
+
+/* No comment provided by engineer. */
+"Phone numbers" = "電話號碼";
+
+/* No comment provided by engineer. */
+"Photo library" = "相片庫";
+
+/* No comment provided by engineer. */
+"Illegal character in username: %@" = "帳戶中有不合法的字符: %@";
+
+/* No comment provided by engineer. */
+"Please enter a domain.\n" = "請輸入域名.\n";
+
+/* No comment provided by engineer. */
+"Please enter a username.\n" = "請輸入用戶名.\n";
+
+/* No comment provided by engineer. */
+"Please make sure your device is connected to the internet and double check your SIP account configuration in the settings." = "請確認本裝置可以連至互聯網並確認您的 SIP 帳戶.";
+
+/* No comment provided by engineer. */
+"Please terminate GSM call" = "請停止 GSM 通話";
+
+/* No comment provided by engineer. */
+"Registered" = "已註册";
+
+/* No comment provided by engineer. */
+"Registration failed" = "註册失敗";
+
+/* No comment provided by engineer. */
+"Registration failure" = "註册失敗";
+
+/* No comment provided by engineer. */
+"Registration in progress" = "註册進行中";
+
+/* ICE has established a connection through a relay */
+"Relay connection" = "轉接器連接";
+
+/* No comment provided by engineer. */
+"Remove" = "移除";
+
+/* No comment provided by engineer. */
+"Remove trust in the peer?" = "移除授權?";
+
+/* No comment provided by engineer. */
+"Select picture source" = "選擇相片來源";
+
+/* */
+"Settings" = "設定";
+
+/* No comment provided by engineer. */
+"Show" = "顯示";
+
+/* No comment provided by engineer. */
+"SIP address" = "SIP 地址";
+
+/* No comment provided by engineer. */
+"SIP addresses" = "SIP 地址";
+
+/* No comment provided by engineer. */
+"SIP server unreachable" = "SIP 伺服器無法接通";
+
+/* No comment provided by engineer. */
+"Stop video" = "停止視訊";
+
+/* No comment provided by engineer. */
+"The email is invalid.\n" = "email 無效.\n";
+
+/* No comment provided by engineer. */
+"The password is too short (minimum %d characters).\n" = "密碼太短 (至少 %d 字元).\n";
+
+/* No comment provided by engineer. */
+"The passwords are different.\n" = "密碼不同.\n";
+
+/* No comment provided by engineer. */
+"The username is too short (minimum %d characters).\n" = "帳戶名太短 (至少 %d 個字元).\n";
+
+/* No comment provided by engineer. */
+"There is no network connection available, enable WIFI or WWAN prior to place a call" = "沒有可用的網路連線,請啔動 WIFI 或 WWAN.";
+
+/* No comment provided by engineer. */
+"Transfer error" = "轉接錯誤";
+
+/* No comment provided by engineer. */
+"Unknown" = "原因不明";
+
+/* No comment provided by engineer. */
+"Unknown error" = "無法辨認的錯誤";
+
+/* No comment provided by engineer. */
+"Username already exists" = "帳戶已存在";
+
+/* No comment provided by engineer. */
+"Video cannot be activated because of low bandwidth condition, only audio is available" = "頻寬不足,視訊關閉,僅提供語音通信";
+
+/* No comment provided by engineer. */
+"You missed a call from %@" = "未接電話 %@";
+
+/* No comment provided by engineer. */
+"You must authorize the application to have access to address book.\nToggle the application in Settings > Privacy > Contacts" = "您必須允許本應用讀取原本的通訊錄.";
+
+/* No comment provided by engineer. */
+"You need to plug a microphone to your device to use this application." = "需要接入麥克風以使用本應用.";
+
+/* No comment provided by engineer. */
+"Your account is not validate yet." = "帳戶尚未驗證.";
+
+/* No comment provided by engineer. */
+"© 2010-2012 Belledonne Communications " = "© 2010-2012 Belledonne Communications ";
+
+/* Placeholder for the address in DialerView */
+"Enter an address" = "輸入 SIP 地址或電話號碼...";
+"%@ is composing..." = "%@ 正在寫入...";
+"Resend" = "重發";

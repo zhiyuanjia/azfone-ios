@@ -1,0 +1,17 @@
+/* Prefix */
+"Prefix" = "前置碼";
+
+/* Substitue + by 00 */
+"Substitue + by 00" = "替代 ＋ 為 00";
+
+/* Send inband DTMFs */
+"Send inband DTMFs" = "送出 inband DTMFs";
+
+/* Send SIP INFO DTMFs */
+"Send SIP INFO DTMFs" = "送出 SIP INFO DTMFs";
+
+/* Incoming call timeout */
+"Incoming call timeout" = "來電時效";
+
+/* In call timeout */
+"In call timeout" = "通話中時效";

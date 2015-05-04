@@ -1,0 +1,140 @@
+/.cvsignore/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/.gitignore/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/AUTHORS/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/ChangeLog/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/Copyright/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/DOCBparser.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/HACKING/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/HTMLparser.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/HTMLtree.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/INSTALL.libxml2/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/MAINTAINERS/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/Makefile.am/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/Makefile.tests/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/Makefile.win/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/NEWS/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/README/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/README.cvs-commits/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/README.tests/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/SAX.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/SAX2.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/TODO/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/TODO_SCHEMAS/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/acinclude.m4/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/autogen.sh/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/build_glob.py/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/c14n.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/catalog.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/check-relaxng-test-suite.py/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/check-relaxng-test-suite2.py/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/check-xinclude-test-suite.py/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/check-xml-test-suite.py/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/check-xsddata-test-suite.py/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/chvalid.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/chvalid.def/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/configure.in/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/dbgen.pl/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/dbgenattr.pl/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/debugXML.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/dict.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/elfgcchack.h/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/encoding.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/entities.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/error.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/genChRanges.py/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/genUnicode.py/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/gentest.py/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/global.data/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/globals.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/hash.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/legacy.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/libxml-2.0-uninstalled.pc.in/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/libxml-2.0.pc.in/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/libxml.3/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/libxml.h/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/libxml.m4/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/libxml.spec.in/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/libxml2.doap/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/libxml2.syms/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/list.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/nanoftp.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/nanohttp.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/parser.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/parserInternals.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/pattern.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/regressions.py/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/regressions.xml/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/relaxng.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/rngparser.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/runsuite.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/runtest.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/runxmlconf.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/schematron.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testAutomata.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testC14N.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testHTML.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testModule.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testOOM.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testOOMlib.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testOOMlib.h/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testReader.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testRegexp.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testRelax.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testSAX.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testSchemas.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testThreads.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testThreadsWin32.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testURI.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testXPath.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testapi.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testchar.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testdict.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testdso.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/testrecurse.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/threads.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/tree.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/trio.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/trio.h/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/triodef.h/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/trionan.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/trionan.h/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/triop.h/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/triostr.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/triostr.h/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/uri.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/valid.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xinclude.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xlink.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xml2-config.1/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xml2-config.in/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xml2Conf.sh.in/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xmlIO.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xmlcatalog.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xmllint.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xmlmemory.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xmlmodule.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xmlreader.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xmlregexp.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xmlsave.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xmlschemas.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xmlschemastypes.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xmlstring.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xmlunicode.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xmlwriter.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xpath.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xpointer.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xzlib.c/1.1.1.1/Thu Nov 13 04:07:26 2014//
+/xzlib.h/1.1.1.1/Thu Nov 13 04:07:26 2014//
+D/VxWorks////
+D/bakefile////
+D/doc////
+D/example////
+D/include////
+D/macos////
+D/optim////
+D/python////
+D/result////
+D/test////
+D/vms////
+D/win32////
+D/xstc////

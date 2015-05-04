@@ -1,0 +1,18 @@
+/Makefile/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/asm.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/bswap.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/cpu.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/cpu.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/cpuid.asm/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/emms.asm/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/emms.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/float_dsp.asm/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/float_dsp_init.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/intreadwrite.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/lls.asm/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/lls_init.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/timer.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/w64xmmtest.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/x86inc.asm/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/x86util.asm/1.1.1.1/Thu Nov 13 04:07:24 2014//
+D

@@ -1,0 +1,22 @@
+
+/* Class = "IBUIButton"; normalTitle = "Download"; ObjectID = "3lC-mU-i9q"; */
+"3lC-mU-i9q.normalTitle" = "下載";
+
+/* Class = "IBUIButton"; normalTitle = "Send"; ObjectID = "p2g-8x-wMw"; */
+"p2g-8x-wMw.normalTitle" = "連接";
+
+/* Class = "IBUILabel"; text = "Password:"; ObjectID = "qVs-SD-siL"; */
+"qVs-SD-siL.text" = "密碼:";
+
+/* Class = "IBUILabel"; text = "Set Host:"; ObjectID = "wCD-lJ-ZPX"; */
+"wCD-lJ-ZPX.text" = "主機位址:";
+
+/* Class = "IBUILabel"; text = "Account:"; ObjectID = "yOa-VA-uCJ"; */
+"yOa-VA-uCJ.text" = "帳號:";
+/* Title of AlertView */
+"Invalid IP" = "錯誤的IP";
+/* Cancel Button Title */
+"confirm" = "確認";
+/* Title of AlertView */
+"Account or Password is Wrong!" = "帳號或密碼錯誤";
+

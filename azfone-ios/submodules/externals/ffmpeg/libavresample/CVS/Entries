@@ -1,0 +1,22 @@
+/Makefile/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/audio_convert.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/audio_convert.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/audio_data.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/audio_data.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/audio_mix.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/audio_mix.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/audio_mix_matrix.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/avresample-test.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/avresample.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/dither.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/dither.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/internal.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/libavresample.v/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/options.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/resample.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/resample.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/resample_template.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/utils.c/1.1.1.1/Thu Nov 13 04:07:24 2014//
+/version.h/1.1.1.1/Thu Nov 13 04:07:24 2014//
+D/arm////
+D/x86////

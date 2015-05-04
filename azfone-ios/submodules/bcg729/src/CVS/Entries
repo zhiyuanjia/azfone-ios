@@ -1,0 +1,25 @@
+/LP2LSPConversion.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/LPSynthesisFilter.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/LSPQuantization.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/Makefile.am/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/adaptativeCodebookSearch.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/codebooks.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/computeAdaptativeCodebookGain.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/computeLP.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/computeWeightedSpeech.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/decodeAdaptativeCodeVector.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/decodeFixedCodeVector.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/decodeGains.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/decodeLSP.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/decoder.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/encoder.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/findOpenLoopPitchDelay.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/fixedCodebookSearch.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/gainQuantization.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/interpolateqLSP.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/postFilter.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/postProcessing.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/preProcessing.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/qLSP2LP.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+/utils.c/1.1.1.1/Thu Nov 13 04:07:19 2014//
+D

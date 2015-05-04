@@ -1,0 +1,20 @@
+/.gitignore/1.1.1.1/Thu Nov 13 04:07:34 2014//
+/CMakeLists.txt/1.1.1.1/Thu Nov 13 04:07:34 2014//
+/Makefile.am/1.1.1.1/Thu Nov 13 04:07:34 2014//
+/dxfilter.cpp/1.1.1.1/Thu Nov 13 04:07:34 2014//
+/dxfilter.h/1.1.1.1/Thu Nov 13 04:07:34 2014//
+/filter-template.c/1.1.1.1/Thu Nov 13 04:07:34 2014//
+/generate_descs_header.cmake/1.1.1.1/Thu Nov 13 04:07:34 2014//
+/generate_yuv2rgb_header.cmake/1.1.1.1/Thu Nov 13 04:07:34 2014//
+/gitversion.cmake/1.1.1.1/Thu Nov 13 04:07:34 2014//
+/yuv2rgb.fs/1.1.1.1/Thu Nov 13 04:07:34 2014//
+/yuv2rgb.vs/1.1.1.1/Thu Nov 13 04:07:34 2014//
+D/android////
+D/audiofilters////
+D/base////
+D/ortp-deps////
+D/otherfilters////
+D/upnp////
+D/utils////
+D/videofilters////
+D/voip////

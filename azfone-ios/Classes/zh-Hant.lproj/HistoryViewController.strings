@@ -1,0 +1,27 @@
+
+/* Class = "IBUIButton"; accessibilityLabel = "All contacts filter"; ObjectID = "4"; */
+"4.accessibilityLabel" = "全部聯絡挑選";
+
+/* Class = "IBUIButton"; normalTitle = "All"; ObjectID = "4"; */
+"4.normalTitle" = "全部";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Missed contacts filter"; ObjectID = "5"; */
+"5.accessibilityLabel" = "未接聯絡挑選";
+
+/* Class = "IBUIButton"; normalTitle = "Missed"; ObjectID = "5"; */
+"5.normalTitle" = "未接";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Edit"; ObjectID = "6"; */
+"6.accessibilityLabel" = "修改";
+
+/* Class = "IBUIButton"; normalTitle = "Edit"; ObjectID = "6"; */
+"6.normalTitle" = "修改";
+
+/* Class = "IBUIButton"; selectedTitle = "Ok"; ObjectID = "6"; */
+"6.selectedTitle" = "Ok";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Delete all"; ObjectID = "35"; */
+"35.accessibilityLabel" = "全部刪除";
+
+/* Class = "IBUIButton"; normalTitle = "Delete all"; ObjectID = "35"; */
+"35.normalTitle" = "全部刪除";

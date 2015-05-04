@@ -1,0 +1,13 @@
+/copy_altivec.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/filter_altivec.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/filter_bilinear_altivec.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/idctllm_altivec.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/loopfilter_altivec.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/loopfilter_filters_altivec.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/platform_altivec.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/recon_altivec.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/sad_altivec.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/systemdependent.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/variance_altivec.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/variance_subpixel_altivec.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+D

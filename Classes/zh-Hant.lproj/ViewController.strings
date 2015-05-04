@@ -1,0 +1,9 @@
+
+/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "BTC-lZ-J99"; */
+"BTC-lZ-J99.title" = "返回";
+
+/* Class = "IBUIBarButtonItem"; title = "Start"; ObjectID = "st2-Sa-b2A"; */
+"st2-Sa-b2A.title" = "開始";
+
+/* Class = "IBUILabel"; text = "Tap on Start! to read a QR Code"; ObjectID = "vA2-UT-MGi"; */
+"vA2-UT-MGi.text" = "點擊開始掃描QRCode";

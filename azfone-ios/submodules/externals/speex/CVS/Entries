@@ -1,0 +1,43 @@
+/.cvsignore/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/.gitignore/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/AUTHORS/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/CMakeLists.txt/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/COPYING/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/ChangeLog/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/Doxyfile/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/IDEAS/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/INSTALL/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/Makefile.am/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/NEWS/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/OPTIMIZE/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/README/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/README.TI-DSP/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/README.Trimedia/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/README.blackfin/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/README.symbian/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/README.win32/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/Speex.kdevelop/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/Speex.spec.in/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/TODO/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/acinclude.m4/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/autogen.sh/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/config.h.cmake/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/configure.ac/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/regressions/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/speex.m4/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/speex.pc.in/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/speexdsp.pc.in/1.1.1.1/Thu Nov 13 04:07:32 2014//
+/test_inline.c/1.1.1.1/Thu Nov 13 04:07:32 2014//
+D/build////
+D/doc////
+D/html////
+D/include////
+D/libspeex////
+D/macosx////
+D/regression-fixes////
+D/speexclient////
+D/src////
+D/symbian////
+D/ti////
+D/tmv////
+D/win32////

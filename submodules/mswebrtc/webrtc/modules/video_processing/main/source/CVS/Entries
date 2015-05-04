@@ -1,0 +1,25 @@
+/Android.mk/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/brighten.cc/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/brighten.h/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/brightness_detection.cc/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/brightness_detection.h/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/color_enhancement.cc/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/color_enhancement.h/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/color_enhancement_private.h/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/content_analysis.cc/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/content_analysis.h/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/content_analysis_sse2.cc/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/deflickering.cc/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/deflickering.h/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/denoising.cc/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/denoising.h/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/frame_preprocessor.cc/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/frame_preprocessor.h/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/spatial_resampler.cc/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/spatial_resampler.h/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/video_decimator.cc/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/video_decimator.h/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/video_processing.gypi/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/video_processing_impl.cc/1.1.1.1/Thu Nov 13 04:07:37 2014//
+/video_processing_impl.h/1.1.1.1/Thu Nov 13 04:07:37 2014//
+D

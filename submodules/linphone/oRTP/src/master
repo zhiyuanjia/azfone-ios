@@ -1,0 +1,33 @@
+*############################################################
+*#
+*# $Header: /home/repository/azfone-ios/submodules/linphone/oRTP/src/master,v 1.1.1.1 2014/11/13 04:07:34 khc Exp $
+*#
+*# $Source: /home/repository/azfone-ios/submodules/linphone/oRTP/src/master,v $
+*# $Revision: 1.1.1.1 $
+*# $Locker:  $
+*# 
+*############################################################
+$VERSION
+1
+$$$
+
+$DRIVER_INSTALL
+oRTP	-1	-1
+$$$
+
+$LOADABLE
+$$$
+
+$INTERFACE
+base
+$$$
+
+$DRIVER_DEPENDENCY
+$$$
+
+$TYPE
+oRTP	wsio_class	pseudo	pmi	-1	-1
+$$$
+
+$TUNABLE
+$$$

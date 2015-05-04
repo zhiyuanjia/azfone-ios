@@ -1,0 +1,17 @@
+/.gitignore/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/AUTHORS/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/Android.mk/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/COPYING/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ChangeLog/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/Makefile.am/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/NEWS/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/README/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/autogen.sh/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/bcg729.spec.in/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/configure.ac/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/libbcg729.pc.in/1.1.1.1/Thu Nov 13 04:07:18 2014//
+D/build////
+D/include////
+D/msbcg729////
+D/src////
+D/test////

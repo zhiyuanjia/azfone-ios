@@ -1,0 +1,69 @@
+
+/* Class = "IBUIButton"; accessibilityLabel = "Back"; ObjectID = "9"; */
+"9.accessibilityLabel" = "倒回";
+
+/* Class = "IBUIButton"; normalTitle = "Back"; ObjectID = "9"; */
+"9.normalTitle" = "倒回";
+
+/* Class = "IBUIImageView"; accessibilityLabel = "Contact's avatar"; ObjectID = "23"; */
+"23.accessibilityLabel" = "聯絡人的圖像";
+
+/* Class = "IBUILabel"; accessibilityLabel = "Contact's name"; ObjectID = "25"; */
+"25.accessibilityLabel" = "聯絡姓名";
+
+/* Class = "IBUILabel"; text = "Contact1"; ObjectID = "25"; */
+"25.text" = "聯絡1";
+
+/* Class = "IBUILabel"; text = "Date:"; ObjectID = "27"; */
+"27.text" = "日期:";
+
+/* Class = "IBUILabel"; accessibilityLabel = "Call date"; ObjectID = "28"; */
+"28.accessibilityLabel" = "通話日期";
+
+/* Class = "IBUILabel"; text = "11/11/2011 at 10:01"; ObjectID = "28"; */
+"28.text" = "11/11/2011 at 10:01";
+
+/* Class = "IBUILabel"; text = "Duration:"; ObjectID = "31"; */
+"31.text" = "通話時間:";
+
+/* Class = "IBUILabel"; accessibilityLabel = "Call duration"; ObjectID = "32"; */
+"32.accessibilityLabel" = "通話時間";
+
+/* Class = "IBUILabel"; text = "9:05"; ObjectID = "32"; */
+"32.text" = "9:05";
+
+/* Class = "IBUILabel"; accessibilityLabel = "Call type"; ObjectID = "35"; */
+"35.accessibilityLabel" = "通話類別";
+
+/* Class = "IBUILabel"; text = "outgoing call"; ObjectID = "35"; */
+"35.text" = "外播電話";
+
+/* Class = "IBUILabel"; text = "Type:"; ObjectID = "36"; */
+"36.text" = "類別:";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Callback"; ObjectID = "37"; */
+"37.accessibilityLabel" = "回播";
+
+/* Class = "IBUIButton"; normalTitle = "Call"; ObjectID = "37"; */
+"37.normalTitle" = "通話";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Add to contact"; ObjectID = "50"; */
+"50.accessibilityLabel" = "加入聯絡簿";
+
+/* Class = "IBUIButton"; normalTitle = "Add to contacts"; ObjectID = "50"; */
+"50.normalTitle" = "加入聯絡簿";
+
+/* Class = "IBUILabel"; text = "Address:"; ObjectID = "55"; */
+"55.text" = "地址:";
+
+/* Class = "IBUILabel"; accessibilityLabel = "Address"; ObjectID = "56"; */
+"56.accessibilityLabel" = "地址";
+
+/* Class = "IBUILabel"; text = "0102030405"; ObjectID = "56"; */
+"56.text" = "0102030405";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Send message"; ObjectID = "59"; */
+"59.accessibilityLabel" = "發送信息";
+
+/* Class = "IBUIButton"; normalTitle = "Send message"; ObjectID = "59"; */
+"59.normalTitle" = "發送信息";

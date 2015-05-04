@@ -1,0 +1,27 @@
+/bilinearpredict_neon.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/buildintrapredictorsmby_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/copymem_neon.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/dc_only_idct_add_neon.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/dequant_idct_neon.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/dequantizeb_neon.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/idct_blk_neon.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/idct_dequant_0_2x_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/idct_dequant_full_2x_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/iwalsh_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/loopfilter_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/loopfiltersimplehorizontaledge_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/loopfiltersimpleverticaledge_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/mbloopfilter_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/sad16_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/sad8_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/save_reg_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/shortidct4x4llm_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/sixtappredict16x16_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/sixtappredict4x4_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/sixtappredict8x4_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/sixtappredict8x8_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/variance_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp8_subpixelvariance16x16_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp8_subpixelvariance16x16s_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp8_subpixelvariance8x8_neon.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+D

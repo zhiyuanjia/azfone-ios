@@ -1,0 +1,26 @@
+/vp9_dct32x32_avx2.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_dct32x32_sse2.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_dct_avx2.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_dct_sse2.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_error_sse2.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_quantize_ssse3.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_sad4d_intrin_avx2.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_sad4d_sse2.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_sad_mmx.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_sad_sse2.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_sad_sse3.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_sad_sse4.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_sad_ssse3.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_ssim_opt.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_subpel_variance.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_subpel_variance_impl_intrin_avx2.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_subpel_variance_impl_sse2.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_subtract_sse2.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_temporal_filter_apply_sse2.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_variance_avx2.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_variance_impl_intrin_avx2.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_variance_impl_mmx.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_variance_impl_sse2.asm/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_variance_mmx.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/vp9_variance_sse2.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+D

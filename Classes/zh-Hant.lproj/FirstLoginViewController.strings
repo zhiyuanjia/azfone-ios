@@ -1,0 +1,18 @@
+
+/* Class = "IBUITextField"; accessibilityLabel = "Username"; ObjectID = "6"; */
+"6.accessibilityLabel" = "帳號";
+
+/* Class = "IBUITextField"; placeholder = "Username"; ObjectID = "6"; */
+"6.placeholder" = "帳號";
+
+/* Class = "IBUITextField"; accessibilityLabel = "Password"; ObjectID = "8"; */
+"8.accessibilityLabel" = "密碼";
+
+/* Class = "IBUITextField"; placeholder = "Password"; ObjectID = "8"; */
+"8.placeholder" = "密碼";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Login"; ObjectID = "64"; */
+"64.accessibilityLabel" = "登入";
+
+/* Class = "IBUIButton"; normalTitle = "Login"; ObjectID = "64"; */
+"64.normalTitle" = "登入";

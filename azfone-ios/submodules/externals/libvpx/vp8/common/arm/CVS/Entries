@@ -1,0 +1,9 @@
+/bilinearfilter_arm.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/bilinearfilter_arm.h/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/dequantize_arm.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/filter_arm.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/loopfilter_arm.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/reconintra_arm.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+/variance_arm.c/1.1.1.1/Thu Nov 13 04:07:25 2014//
+D/armv6////
+D/neon////

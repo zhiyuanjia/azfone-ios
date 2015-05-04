@@ -1,0 +1,15 @@
+*############################################################
+*#
+*# $Header: /home/repository/azfone-ios/submodules/linphone/oRTP/src/system,v 1.1.1.1 2014/11/13 04:07:34 khc Exp $
+*#
+*# $Source: /home/repository/azfone-ios/submodules/linphone/oRTP/src/system,v $
+*# $Revision: 1.1.1.1 $
+*# $Locker:  $
+*# 
+*############################################################
+$VERSION 1
+$CONFIGURE	Y
+$LOADABLE	Y
+$TUNABLE
+$$$
+

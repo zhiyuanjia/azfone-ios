@@ -1,0 +1,50 @@
+/* Codecs */
+"Codecs" = "編碼";
+
+/* AMR */
+"AMR" = "AMR";
+
+/* Speex 16Khz */
+"Speex 16Khz" = "Speex 16Khz";
+
+/* Speex 8Khz */
+"Speex 8Khz" = "Speex 8Khz";
+
+/* Silk 24Khz */
+"Silk 24Khz" = "Silk 24Khz";
+
+/* Silk 16Khz */
+"Silk 16Khz" = "Silk 16Khz";
+
+/* G722 */
+"G722" = "G722";
+
+/* G729 */
+"G729" = "G729";
+
+/* GSM */
+"GSM" = "GSM";
+
+/* ILBC */
+"ILBC" = "ILBC";
+
+/* PCMU */
+"PCMU" = "PCMU";
+
+/* PCMA */
+"PCMA" = "PCMA";
+
+/* Advanced */
+"Advanced" = "進階功能";
+
+/* Playback gain */
+"Playback gain" = "放出倍率";
+
+/* Microphone gain */
+"Microphone gain" = "收音倍率";
+
+/* Adaptive rate control */
+"Adaptive rate control" = "動態頻寬控制";
+
+/* Codec bitrate limit */
+"Codec bitrate limit" = "編碼器頻寬限制";

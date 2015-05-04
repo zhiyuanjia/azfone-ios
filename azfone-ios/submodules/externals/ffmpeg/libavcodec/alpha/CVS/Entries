@@ -1,0 +1,14 @@
+/Makefile/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/asm.h/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/dsputil_alpha.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/dsputil_alpha.h/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/dsputil_alpha_asm.S/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/hpeldsp_alpha.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/hpeldsp_alpha.h/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/hpeldsp_alpha_asm.S/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/motion_est_alpha.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/motion_est_mvi_asm.S/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/mpegvideo_alpha.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/regdef.h/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/simple_idct_alpha.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+D

@@ -1,0 +1,76 @@
+/ChatRoomTableViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ChatRoomTableViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ChatRoomViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ChatRoomViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ChatTableViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ChatTableViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ChatViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ChatViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ConsoleViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ConsoleViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ConsoleViewController.xib/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ContactDetailsDelegate.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ContactDetailsLabelViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ContactDetailsLabelViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ContactDetailsTableViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ContactDetailsTableViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ContactDetailsViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ContactDetailsViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ContactsTableViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ContactsTableViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ContactsViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ContactsViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/DialerViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/DialerViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/FirstLoginViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/FirstLoginViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/HistoryDetailsViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/HistoryDetailsViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/HistoryTableViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/HistoryTableViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/HistoryViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/HistoryViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ImagePickerViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ImagePickerViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ImageSharing.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ImageSharing.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ImageViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/ImageViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/InCallTableViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/InCallTableViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/InCallViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/InCallViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/IncomingCallViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/IncomingCallViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/LinphoneAppDelegate.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/LinphoneCoreSettingsStore.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/LinphoneCoreSettingsStore.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/LinphoneManager.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/MainStoryboard.storyboard/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/PhoneMainView.xib/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/SettingsViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/SettingsViewController.xib/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/WizardViewController.h/1.1.1.1/Thu Nov 13 04:07:18 2014//
+/WizardViewController.m/1.1.1.1/Thu Nov 13 04:07:18 2014//
+D/Base.lproj////
+D/LinphoneUI////
+D/Utils////
+D/fr.lproj////
+D/ru.lproj////
+D/zh-Hant.lproj////
+/LinphoneAppDelegate.m/1.2/Mon Nov 17 02:50:49 2014//
+/PhoneMainView.m/1.2/Wed Nov 19 04:25:11 2014//
+D/AFNetworking////
+/LinphoneManager.m/1.2/Fri Nov 21 07:57:59 2014//
+/keyViewController.h/1.1/Mon Nov 24 05:43:47 2014//
+/keyViewController.xib/1.1/Tue Nov 25 01:11:09 2014//
+/TTOpenInAppActivity.h/1.1/Tue Oct 14 23:31:52 2014//
+/TTOpenInAppActivity.m/1.1/Mon Nov 24 04:06:08 2014//
+/LinphoneIOSVersion.h/1.1/Wed Nov 26 00:58:25 2014//
+/PhoneMainView.h/1.1.1.1/Mon Nov 24 07:39:53 2014//
+D/en.lproj////
+/SettingsViewController.m/1.4/Fri Nov 28 05:39:30 2014//
+/AboutViewController.h/1.2/Thu Nov 27 09:39:19 2014//
+/AboutViewController.m/1.3/Thu Nov 27 09:42:59 2014//
+/AboutViewController.xib/1.2/Thu Nov 27 09:50:21 2014//
+/keyViewController.m/1.3/Wed Dec  3 03:41:44 2014//

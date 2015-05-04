@@ -1,0 +1,42 @@
+
+/* Class = "IBUIButton"; accessibilityLabel = "Decline"; ObjectID = "6"; */
+"6.accessibilityLabel" = "拒絕";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Accept"; ObjectID = "7"; */
+"7.accessibilityLabel" = "接受";
+
+/* Class = "IBUILabel"; accessibilityLabel = "Contact's name"; ObjectID = "9"; */
+"9.accessibilityLabel" = "聯絡姓名";
+
+/* Class = "IBUILabel"; text = "0102030405"; ObjectID = "9"; */
+"9.text" = "0102030405";
+
+/* Class = "IBUIImageView"; accessibilityLabel = "Contact's avatar"; ObjectID = "19"; */
+"19.accessibilityLabel" = "聯絡人圖像";
+
+/* Class = "IBUILabel"; accessibilityLabel = "Incoming call"; ObjectID = "31"; */
+"31.accessibilityLabel" = "來電";
+
+/* Class = "IBUILabel"; text = "Incoming call"; ObjectID = "31"; */
+"31.text" = "來電";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Accept"; ObjectID = "64"; */
+"64.accessibilityLabel" = "接受";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Decline"; ObjectID = "65"; */
+"65.accessibilityLabel" = "拒絕";
+
+/* Class = "IBUILabel"; accessibilityLabel = "Incoming call"; ObjectID = "67"; */
+"67.accessibilityLabel" = "來電";
+
+/* Class = "IBUILabel"; text = "Incoming call"; ObjectID = "67"; */
+"67.text" = "來電";
+
+/* Class = "IBUILabel"; accessibilityLabel = "Contact's name"; ObjectID = "69"; */
+"69.accessibilityLabel" = "聯絡姓名";
+
+/* Class = "IBUILabel"; text = "0102030405"; ObjectID = "69"; */
+"69.text" = "0102030405";
+
+/* Class = "IBUIImageView"; accessibilityLabel = "Contact's avatar"; ObjectID = "71"; */
+"71.accessibilityLabel" = "聯絡人圖像";

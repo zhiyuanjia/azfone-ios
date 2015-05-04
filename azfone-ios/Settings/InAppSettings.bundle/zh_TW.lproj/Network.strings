@@ -1,0 +1,66 @@
+/* Wifi only */
+"Wifi only" = "只允許 Wifi";
+
+/* Edge optimization */
+"Edge optimization" = "邊緣最佳化";
+
+/* Stun Server */
+"Stun Server" = "Stun 伺服器";
+
+/* ICE */
+"ICE" = "ICE";
+
+/* Random Port */
+"Random Port" = "隨機埠";
+
+/* Port */
+"Port" = "埠號";
+
+/* Audio Port(s) */
+"Audio Port(s)" = "語音埠";
+
+/* Video Port(s) */
+"Video Port(s)" = "視訊埠";
+
+/* Transport */
+"Transport" = "傳送";
+
+/* Media Encryption */
+"Media Encryption" = "媒體加密";
+
+/* Push Notifications */
+"Push Notification" = "推出提示";
+
+/* Transport */
+"Transport" = "傳送";
+
+/* UDP */
+"UDP" = "UDP";
+
+/* TCP */
+"TCP" = "TCP";
+
+/* TLS */
+"TLS" = "TLS";
+
+/* None */
+"None" = "None";
+
+/* SRTP */
+"SRTP" = "SRTP";
+
+/* ZRTP */
+"ZRTP" = "ZRTP";
+
+/* Limits */
+"Limits" = "限制";
+
+/* Upload bandwidth */
+"Upload bandwidth" = "上傳頻寬";
+
+/* Download bandwidth */
+"Download bandwidth" = "下載頻寬";
+
+/* IPv6 */
+"Use IPv6" = "使用 IPv6";
+

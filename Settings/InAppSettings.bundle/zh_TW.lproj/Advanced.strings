@@ -1,0 +1,58 @@
+/* Debug */
+"Debug" = "除錯";
+
+/* Debug */
+"Debug" = "除錯";
+
+/* Console */
+"Console" = "操作台";
+
+/*  */
+"" = "";
+
+/* Animations */
+"Animations" = "動畫";
+
+/* Rotation */
+"Rotation" = "旋轉";
+
+/* Background mode */
+"Background mode" = "背景模示";
+
+/* Start at boot */
+"Start at boot" = "開機啔動";
+
+/* First login view */
+"First login view" = "第一次登入畫面";
+
+/* Expire */
+"Expire" = "失效";
+
+/* Primary account */
+"Primary account" = "直接撥出 (無代理伺服器)";
+
+/* Display name */
+"Display name" = "顯示名稱";
+
+/* Sharing server */
+"Sharing server" = "共用伺服器";
+
+/* Username */
+"Username" = "帳號";
+
+/* Rotation */
+"Rotation" = "旋轉";
+
+/* Automatic */
+"Automatic" = "自動";
+
+/* Portrait */
+"Portrait" = "直立";
+
+/* Landscape */
+"Landscape" = "橫放";
+
+/* auto ansewer after notification.*/
+
+"Auto-answer after notification" = "自動應答";
+

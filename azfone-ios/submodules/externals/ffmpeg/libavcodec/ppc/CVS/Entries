@@ -1,0 +1,27 @@
+/Makefile/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/asm.S/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/dsputil_altivec.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/dsputil_altivec.h/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/dsputil_ppc.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/fdct_altivec.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/fft_altivec.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/fft_altivec_s.S/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/fmtconvert_altivec.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/gmc_altivec.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/h264chroma_init.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/h264chroma_template.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/h264dsp.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/h264qpel.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/h264qpel_template.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/hpeldsp_altivec.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/idct_altivec.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/int_altivec.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/mathops.h/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/mpegaudiodsp_altivec.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/mpegvideo_altivec.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/vc1dsp_altivec.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/videodsp_ppc.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/vorbisdsp_altivec.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/vp3dsp_altivec.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+/vp8dsp_altivec.c/1.1.1.1/Thu Nov 13 04:07:23 2014//
+D
