@@ -147,13 +147,11 @@ static const ContactSections_e contactSections[ContactSections_MAX] = {ContactSe
     } else if(contactSections[section] == ContactSections_Sip) {
         return [dataCache objectAtIndex:1];
     } else if(contactSections[section] == ContactSections_Email) {
-        if ([[LinphoneManager instance] lpConfigBoolForKey:@"show_contacts_emails_preference"] == true) {
             return [dataCache objectAtIndex:2];
-        } else {
+    }else {
             return nil;
         }
-    }
-    return nil;
+  
 }
 
 + (NSString*)localizeLabel:(NSString*)str {
@@ -191,6 +189,7 @@ static const ContactSections_e contactSections[ContactSections_MAX] = {ContactSe
             }
             CFRelease(lMap);
         }
+        
         [dataCache addObject:subArray];
     }
     
@@ -234,6 +233,23 @@ static const ContactSections_e contactSections[ContactSections_MAX] = {ContactSe
         }
         [dataCache addObject:subArray];
     }
+    //email
+    {
+        ABMultiValueRef lMap = ABRecordCopyValue(contact,kABPersonEmailProperty);
+        NSMutableArray *subArray =[NSMutableArray array];
+        if(lMap){
+            for(int i = 0l; i<ABMultiValueGetCount(lMap);++i){
+                ABMultiValueIdentifier identifier = ABMultiValueGetIdentifierAtIndex(lMap, i);
+                 Entry *entry = [[Entry alloc] initWithData:identifier];
+                [subArray addObject:entry];
+                [entry release];
+                
+            }
+            CFRelease(lMap);
+        }
+        [dataCache addObject:subArray];
+    }
+    
     
     // Email
     if ([[LinphoneManager instance] lpConfigBoolForKey:@"show_contacts_emails_preference"] == true)
@@ -624,8 +640,10 @@ static const ContactSections_e contactSections[ContactSections_MAX] = {ContactSe
             int index = ABMultiValueGetIndexForIdentifier(lMap, [entry identifier]);
             CFStringRef valueRef = ABMultiValueCopyValueAtIndex(lMap, index);
             if(valueRef != NULL) {
-                dest = [ContactDetailsTableViewController localizeLabel:(NSString*) valueRef];
-                CFRelease(valueRef);
+                NSString *tel = (NSString *)valueRef;
+                tel = [tel stringByAddingPercentEscapesUsingEncoding: NSUTF8StringEncoding];
+                NSString *urlString = [NSString stringWithFormat: @"tel://%@", tel];
+                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]];
             }
             CFRelease(lMap);
         } else if(contactSections[[indexPath section]] == ContactSections_Sip) {
@@ -641,8 +659,24 @@ static const ContactSections_e contactSections[ContactSections_MAX] = {ContactSe
             int index = ABMultiValueGetIndexForIdentifier(lMap, [entry identifier]);
             CFStringRef valueRef = ABMultiValueCopyValueAtIndex(lMap, index);
             if(valueRef != NULL) {
-                dest = [FastAddressBook normalizeSipURI:[NSString stringWithString:(NSString*) valueRef]];
-                CFRelease(valueRef);
+                NSString *email = (NSString *)valueRef;
+                UIAlertView* alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Add XMPP friend",nil)
+                                                                message:nil
+                                                               delegate:self
+                                                      cancelButtonTitle:NSLocalizedString(@"Cancel",nil)
+                                                      otherButtonTitles:NSLocalizedString(@"Add",nil), nil];
+                
+                
+                alert.alertViewStyle = UIAlertViewStyleLoginAndPasswordInput;
+                
+                [alert textFieldAtIndex:0].text = email;
+                [alert textFieldAtIndex:1].placeholder = NSLocalizedString(@"Alias",nil);
+                [alert textFieldAtIndex:1].secureTextEntry = NO;
+                alert.tag=1;
+                // Pop UIAlertView
+                
+                [alert show];
+               
             }
             CFRelease(lMap);
         }
@@ -705,6 +739,24 @@ static const ContactSections_e contactSections[ContactSections_MAX] = {ContactSe
                 [controller setSelectedData:key];
                 [controller setDelegate:self];
             }
+        }
+    }
+}
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    //alertview, tag1 is add xmpp friend
+    
+    
+    if(alertView.tag==1 && buttonIndex ==1){
+
+        
+        if([[alertView textFieldAtIndex:1].text isEqualToString:@" System"]){
+            NSLog(@"display name can't be System");
+        }
+        else{
+            XMPPJID *jid = [XMPPJID jidWithString:[alertView textFieldAtIndex:0].text];
+            
+            [[[LinphoneAppDelegate sharedAppDelegate] xmppRoster] addUser:jid withNickname:[alertView textFieldAtIndex:1].text];
+            [[PhoneMainView instance] changeCurrentView:[ChatViewController compositeViewDescription] push:TRUE];
         }
     }
 }

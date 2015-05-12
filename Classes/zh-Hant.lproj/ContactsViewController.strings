@@ -15,7 +15,7 @@
 "6.accessibilityLabel" = "加入聯絡";
 
 /* Class = "IBUIButton"; normalTitle = "Add contact"; ObjectID = "6"; */
-"6.normalTitle" = "新增聯絡";
+"6.normalTitle" = "新增";
 
 /* Class = "IBUIButton"; accessibilityLabel = "Back"; ObjectID = "87"; */
 "87.accessibilityLabel" = "倒回";

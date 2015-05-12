@@ -328,6 +328,35 @@ int messagesUnreadCount;
 
 #pragma mark - Action Functions
 
+- (IBAction)reconnect:(id)sender {
+    
+    
+    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Please Reconnect OpenVPN",nil)
+                                                    message:NSLocalizedString(@"Click Next, return to the main screen, then click OpenVPN application, after the setting is completed, please return AzFone.",nil)
+                                                   delegate:self
+                                          cancelButtonTitle:NSLocalizedString(@"Cancel",nil)
+                                          otherButtonTitles:NSLocalizedString(@"Next",nil), nil];
+    
+    
+    alert.tag = 1;
+    [alert show];
+
+}
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    
+if (alertView.tag == 1){ // handle the donate
+        
+    if( buttonIndex != 1 ) return;
+    UIApplication *app = [UIApplication sharedApplication];
+    [app performSelector:@selector(suspend)];
+    
+    [NSThread sleepForTimeInterval:2.0];
+    
+    exit(0);
+}
+}
+
+
 - (IBAction)doSecurityClick:(id)sender {
 	if(linphone_core_get_calls_nb([LinphoneManager getLc])) {
 		LinphoneCall *call = linphone_core_get_current_call([LinphoneManager getLc]);

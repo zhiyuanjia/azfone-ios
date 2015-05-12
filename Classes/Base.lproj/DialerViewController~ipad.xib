@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7531" systemVersion="14A389" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
     <dependencies>
-        <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DialerViewController">
@@ -112,7 +111,7 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         </imageView>
                         <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="19" userLabel="1" customClass="UIDigitButtonLongVoiceMail">
-                            <rect key="frame" x="0.0" y="11" width="107" height="54"/>
+                            <rect key="frame" x="8" y="19" width="94" height="46"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.40000001000000002" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                             <accessibility key="accessibilityConfiguration" label="1"/>
@@ -126,7 +125,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="18" userLabel="2" customClass="UIDigitButton">
-                            <rect key="frame" x="107" y="11" width="106" height="54"/>
+                            <rect key="frame" x="115" y="19" width="90" height="46"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <accessibility key="accessibilityConfiguration" label="2"/>
                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
@@ -139,7 +138,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="17" userLabel="3" customClass="UIDigitButton">
-                            <rect key="frame" x="213" y="11" width="107" height="54"/>
+                            <rect key="frame" x="213" y="19" width="93" height="46"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <accessibility key="accessibilityConfiguration" label="3"/>
                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
@@ -152,7 +151,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="15" userLabel="4" customClass="UIDigitButton">
-                            <rect key="frame" x="0.0" y="73" width="107" height="54"/>
+                            <rect key="frame" x="8" y="73" width="94" height="54"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <accessibility key="accessibilityConfiguration" label="4"/>
                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
@@ -165,7 +164,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="16" userLabel="5" customClass="UIDigitButton">
-                            <rect key="frame" x="107" y="73" width="106" height="54"/>
+                            <rect key="frame" x="115" y="73" width="90" height="54"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <accessibility key="accessibilityConfiguration" label="5"/>
                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
@@ -178,7 +177,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9" userLabel="6" customClass="UIDigitButton">
-                            <rect key="frame" x="213" y="73" width="107" height="54"/>
+                            <rect key="frame" x="213" y="73" width="93" height="54"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <accessibility key="accessibilityConfiguration" label="6"/>
                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
@@ -191,7 +190,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="14" userLabel="7" customClass="UIDigitButton">
-                            <rect key="frame" x="0.0" y="135" width="107" height="54"/>
+                            <rect key="frame" x="8" y="135" width="94" height="54"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <accessibility key="accessibilityConfiguration" label="7"/>
                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
@@ -204,7 +203,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="13" userLabel="8" customClass="UIDigitButton">
-                            <rect key="frame" x="107" y="135" width="106" height="54"/>
+                            <rect key="frame" x="115" y="135" width="90" height="54"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <accessibility key="accessibilityConfiguration" label="8"/>
                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
@@ -216,21 +215,8 @@
                                 <outlet property="addressField" destination="6" id="31"/>
                             </connections>
                         </button>
-                        <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="12" userLabel="9" customClass="UIDigitButton">
-                            <rect key="frame" x="213" y="135" width="107" height="54"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <accessibility key="accessibilityConfiguration" label="9"/>
-                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                            <state key="normal" image="numpad_nine_default.png">
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
-                            <state key="highlighted" image="numpad_nine_over.png"/>
-                            <connections>
-                                <outlet property="addressField" destination="6" id="32"/>
-                            </connections>
-                        </button>
                         <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8" userLabel="*" customClass="UIDigitButton">
-                            <rect key="frame" x="0.0" y="197" width="107" height="54"/>
+                            <rect key="frame" x="8" y="197" width="94" height="54"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <accessibility key="accessibilityConfiguration" label="Star"/>
                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
@@ -243,7 +229,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="10" userLabel="0" customClass="UIDigitButtonLongPlus">
-                            <rect key="frame" x="107" y="197" width="106" height="54"/>
+                            <rect key="frame" x="115" y="197" width="90" height="54"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <accessibility key="accessibilityConfiguration" label="0"/>
                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
@@ -256,7 +242,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="11" userLabel="#" customClass="UIDigitButton">
-                            <rect key="frame" x="213" y="197" width="107" height="54"/>
+                            <rect key="frame" x="213" y="197" width="93" height="54"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <accessibility key="accessibilityConfiguration" label="Sharp"/>
                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
@@ -266,6 +252,19 @@
                             <state key="highlighted" image="numpad_sharp_over.png"/>
                             <connections>
                                 <outlet property="addressField" destination="6" id="37"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="12" userLabel="9" customClass="UIDigitButton">
+                            <rect key="frame" x="213" y="135" width="93" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration" label="9"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal" image="numpad_nine_default.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="numpad_nine_over.png"/>
+                            <connections>
+                                <outlet property="addressField" destination="6" id="32"/>
                             </connections>
                         </button>
                     </subviews>
@@ -373,30 +372,30 @@
         <image name="call_over.png" width="371" height="170"/>
         <image name="dialer_address_background.png" width="1536" height="117"/>
         <image name="logo_linphone_trame_background.png" width="1019" height="920"/>
-        <image name="numpad_eight_default.png" width="220" height="113"/>
-        <image name="numpad_eight_over.png" width="220" height="113"/>
-        <image name="numpad_five_default.png" width="220" height="113"/>
-        <image name="numpad_five_over.png" width="220" height="113"/>
-        <image name="numpad_four_default.png" width="210" height="113"/>
-        <image name="numpad_four_over.png" width="210" height="113"/>
-        <image name="numpad_nine_default.png" width="210" height="113"/>
-        <image name="numpad_nine_over.png" width="210" height="113"/>
-        <image name="numpad_one_default.png" width="210" height="113"/>
-        <image name="numpad_one_over.png" width="210" height="113"/>
-        <image name="numpad_seven_default.png" width="210" height="113"/>
-        <image name="numpad_seven_over.png" width="210" height="113"/>
-        <image name="numpad_sharp_default.png" width="210" height="113"/>
-        <image name="numpad_sharp_over.png" width="210" height="113"/>
-        <image name="numpad_six_default.png" width="210" height="113"/>
-        <image name="numpad_six_over.png" width="210" height="113"/>
-        <image name="numpad_star_default.png" width="210" height="113"/>
-        <image name="numpad_star_over.png" width="210" height="113"/>
-        <image name="numpad_three_default.png" width="210" height="113"/>
-        <image name="numpad_three_over.png" width="210" height="113"/>
-        <image name="numpad_two_default.png" width="220" height="113"/>
-        <image name="numpad_two_over.png" width="220" height="113"/>
-        <image name="numpad_zero_default.png" width="220" height="113"/>
-        <image name="numpad_zero_over.png" width="220" height="113"/>
+        <image name="numpad_eight_default.png" width="1111" height="933"/>
+        <image name="numpad_eight_over.png" width="1111" height="933"/>
+        <image name="numpad_five_default.png" width="1111" height="933"/>
+        <image name="numpad_five_over.png" width="1111" height="933"/>
+        <image name="numpad_four_default.png" width="1111" height="933"/>
+        <image name="numpad_four_over.png" width="1111" height="933"/>
+        <image name="numpad_nine_default.png" width="1111" height="933"/>
+        <image name="numpad_nine_over.png" width="1111" height="933"/>
+        <image name="numpad_one_default.png" width="1111" height="933"/>
+        <image name="numpad_one_over.png" width="1111" height="933"/>
+        <image name="numpad_seven_default.png" width="1111" height="933"/>
+        <image name="numpad_seven_over.png" width="1111" height="933"/>
+        <image name="numpad_sharp_default.png" width="1111" height="933"/>
+        <image name="numpad_sharp_over.png" width="1111" height="933"/>
+        <image name="numpad_six_default.png" width="1111" height="933"/>
+        <image name="numpad_six_over.png" width="1111" height="933"/>
+        <image name="numpad_star_default.png" width="1111" height="933"/>
+        <image name="numpad_star_over.png" width="1111" height="933"/>
+        <image name="numpad_three_default.png" width="1111" height="933"/>
+        <image name="numpad_three_over.png" width="1111" height="933"/>
+        <image name="numpad_two_default.png" width="1111" height="933"/>
+        <image name="numpad_two_over.png" width="1111" height="933"/>
+        <image name="numpad_zero_default.png" width="1111" height="933"/>
+        <image name="numpad_zero_over.png" width="1111" height="933"/>
         <image name="switch_camera_default.png" width="151" height="51"/>
         <image name="switch_camera_over.png" width="151" height="51"/>
         <image name="transfer_call_default.png" width="371" height="170"/>

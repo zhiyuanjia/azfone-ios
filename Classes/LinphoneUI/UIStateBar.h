@@ -31,6 +31,7 @@
 @property (nonatomic, retain) IBOutlet UIImageView* callSecurityImage;
 @property (nonatomic, retain) IBOutlet UIButton* callSecurityButton;
 @property (retain, nonatomic) IBOutlet UILabel *voicemailCount;
+- (IBAction)reconnect:(id)sender;
 
 - (IBAction)doSecurityClick:(id)sender;
 

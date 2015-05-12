@@ -246,7 +246,8 @@
 
 /* No comment provided by engineer. */
 "SIP addresses" = "SIP 地址";
-
+"Email address" ="Email 地址";
+"Email addresses" ="Email 地址";
 /* No comment provided by engineer. */
 "SIP server unreachable" = "SIP 伺服器無法接通";
 
@@ -319,6 +320,7 @@
 "Please back to AzFone and press Setting to perform other configurations" ="在VPN應用程式下載完成後,請點選AzFone,再點擊設定以進行其他設置.";
 "Download OpenVPN" = "下載OpenVPN";
 "Add friend" = "新增好友";
+"Add XMPP friend"="新增 XMPP 好友";
 "Add" ="新增";
 "Alias" ="暱稱";
 "Chat" ="會議室";
