@@ -80,7 +80,7 @@
 		</dict>
 		<dict>
 			<key>DefaultValue</key>
-			<false/>
+			<true/>
 			<key>Key</key>
 			<string>h264_preference</string>
 			<key>Title</key>

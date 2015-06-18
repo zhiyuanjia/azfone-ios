@@ -111,7 +111,8 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 
 
 - (void)applicationDidEnterBackground:(UIApplication *)application{
-
+    
+    [UIApplication sharedApplication].idleTimerDisabled = YES;
 	Linphone_log(@"%@", NSStringFromSelector(_cmd));
 	[[LinphoneManager instance] enterBackgroundMode];
     DDLogVerbose(@"%@: %@", THIS_FILE, THIS_METHOD);
@@ -121,20 +122,21 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
                @"Inbound traffic is queued until the keepAliveTimeout:handler: fires.");
 #endif
     
-    if ([application respondsToSelector:@selector(setKeepAliveTimeout:handler:)])
-    {
-        [application setKeepAliveTimeout:600 handler:^{
-            
-            DDLogVerbose(@"KeepAliveHandler");
-            
-            // Do other keep alive stuff here.
-        }];
-    }
+//    if ([application respondsToSelector:@selector(setKeepAliveTimeout:handler:)])
+//    {
+//        [application setKeepAliveTimeout:600 handler:^{
+//            
+//            DDLogVerbose(@"KeepAliveHandler");
+//            
+//            // Do other keep alive stuff here.
+//        }];
+//    }
 
 }
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     
+[UIApplication sharedApplication].idleTimerDisabled = NO;
     DDLogVerbose(@"%@: %@", THIS_FILE, THIS_METHOD);
 }
 
@@ -575,7 +577,6 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
    
    [DDLog addLogger:[DDTTYLogger sharedInstance]];
     

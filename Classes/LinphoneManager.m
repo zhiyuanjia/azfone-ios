@@ -150,6 +150,7 @@ struct codec_name_pref_table codec_pref_table[]={
 	{ NULL,0,Nil }
 };
 
+
 + (NSString *)getPreferenceForCodec: (const char*) name withRate: (int) rate{
 	int i;
 	for(i=0;codec_pref_table[i].name!=NULL;++i){
@@ -1418,9 +1419,11 @@ static BOOL libStarted = FALSE;
     libmsx264_init(); //load x264 plugin if present from the liblinphone sdk
 #endif
 #ifdef HAVE_OPENH264
-
+    NSString *h264 = [[LinphoneManager instance] lpConfigStringForKey:@"h264config_preference"];
+    if([h264 isEqualToString:@"to_be_installed"]){
         libmsopenh264_init();
-
+    }
+    
 #endif
 
 #if HAVE_G729
