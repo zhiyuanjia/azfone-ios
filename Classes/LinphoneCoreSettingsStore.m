@@ -617,13 +617,13 @@ extern void linphone_iphone_log_handler(int lev, const char *fmt, va_list args);
             break;
         case 2:
         default:
-            //change QVGA size to CIF and bandwidth 380 to 320 by Otis.
-            vsize.width=MS_VIDEO_SIZE_CIF_W;
             vsize.height=MS_VIDEO_SIZE_CIF_H;
-            MS_VIDEO_SIZE_ASSIGN(vsize, QVGA);
-            bw = 320;
+            vsize.width= MS_VIDEO_SIZE_CIF_W;
+            MS_VIDEO_SIZE_ASSIGN(vsize, CIF);
+            bw = 380;
             break;
     }
+
     linphone_core_set_preferred_video_size(lc, vsize);
     [self setInteger: bw forKey:@"upload_bandwidth_preference"];
     [self setInteger: bw forKey:@"download_bandwidth_preference"];

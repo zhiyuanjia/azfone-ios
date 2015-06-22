@@ -43,12 +43,14 @@
                 <view contentMode="scaleToFill" id="76" userLabel="backgroundView">
                     <rect key="frame" x="0.0" y="0.0" width="768" height="900"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <view contentMode="scaleAspectFill" id="70" userLabel="preview">
+                            <rect key="frame" x="0.0" y="58" width="768" height="842"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                </view>
-                <view contentMode="scaleAspectFill" id="70" userLabel="preview">
-                    <rect key="frame" x="0.0" y="58" width="768" height="842"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </view>
                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="71" userLabel="videoCameraSwitch" customClass="UICamSwitch">
                     <rect key="frame" x="20" y="90" width="85" height="33"/>
@@ -372,30 +374,30 @@
         <image name="call_over.png" width="371" height="170"/>
         <image name="dialer_address_background.png" width="1536" height="117"/>
         <image name="logo_linphone_trame_background.png" width="1019" height="920"/>
-        <image name="numpad_eight_default.png" width="1111" height="933"/>
-        <image name="numpad_eight_over.png" width="1111" height="933"/>
-        <image name="numpad_five_default.png" width="1111" height="933"/>
-        <image name="numpad_five_over.png" width="1111" height="933"/>
-        <image name="numpad_four_default.png" width="1111" height="933"/>
-        <image name="numpad_four_over.png" width="1111" height="933"/>
-        <image name="numpad_nine_default.png" width="1111" height="933"/>
-        <image name="numpad_nine_over.png" width="1111" height="933"/>
-        <image name="numpad_one_default.png" width="1111" height="933"/>
-        <image name="numpad_one_over.png" width="1111" height="933"/>
-        <image name="numpad_seven_default.png" width="1111" height="933"/>
-        <image name="numpad_seven_over.png" width="1111" height="933"/>
-        <image name="numpad_sharp_default.png" width="1111" height="933"/>
-        <image name="numpad_sharp_over.png" width="1111" height="933"/>
-        <image name="numpad_six_default.png" width="1111" height="933"/>
-        <image name="numpad_six_over.png" width="1111" height="933"/>
-        <image name="numpad_star_default.png" width="1111" height="933"/>
-        <image name="numpad_star_over.png" width="1111" height="933"/>
-        <image name="numpad_three_default.png" width="1111" height="933"/>
-        <image name="numpad_three_over.png" width="1111" height="933"/>
-        <image name="numpad_two_default.png" width="1111" height="933"/>
-        <image name="numpad_two_over.png" width="1111" height="933"/>
-        <image name="numpad_zero_default.png" width="1111" height="933"/>
-        <image name="numpad_zero_over.png" width="1111" height="933"/>
+        <image name="numpad_eight_default.png" width="220" height="113"/>
+        <image name="numpad_eight_over.png" width="220" height="113"/>
+        <image name="numpad_five_default.png" width="220" height="113"/>
+        <image name="numpad_five_over.png" width="220" height="113"/>
+        <image name="numpad_four_default.png" width="210" height="113"/>
+        <image name="numpad_four_over.png" width="210" height="113"/>
+        <image name="numpad_nine_default.png" width="210" height="113"/>
+        <image name="numpad_nine_over.png" width="210" height="113"/>
+        <image name="numpad_one_default.png" width="210" height="113"/>
+        <image name="numpad_one_over.png" width="210" height="113"/>
+        <image name="numpad_seven_default.png" width="210" height="113"/>
+        <image name="numpad_seven_over.png" width="210" height="113"/>
+        <image name="numpad_sharp_default.png" width="210" height="113"/>
+        <image name="numpad_sharp_over.png" width="210" height="113"/>
+        <image name="numpad_six_default.png" width="210" height="113"/>
+        <image name="numpad_six_over.png" width="210" height="113"/>
+        <image name="numpad_star_default.png" width="210" height="113"/>
+        <image name="numpad_star_over.png" width="210" height="113"/>
+        <image name="numpad_three_default.png" width="210" height="113"/>
+        <image name="numpad_three_over.png" width="210" height="113"/>
+        <image name="numpad_two_default.png" width="220" height="113"/>
+        <image name="numpad_two_over.png" width="220" height="113"/>
+        <image name="numpad_zero_default.png" width="220" height="113"/>
+        <image name="numpad_zero_over.png" width="220" height="113"/>
         <image name="switch_camera_default.png" width="151" height="51"/>
         <image name="switch_camera_over.png" width="151" height="51"/>
         <image name="transfer_call_default.png" width="371" height="170"/>
