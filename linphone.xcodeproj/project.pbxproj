@@ -325,14 +325,13 @@
 		3D181C7C1A23195B0041A79C /* keyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5A8E601A22FCD700F1251D /* keyViewController.m */; };
 		3D181C7E1A231B910041A79C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22744043106F33FC006EC466 /* Security.framework */; };
 		3D181C871A231E390041A79C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BB8C4A193631B300974404 /* ImageIO.framework */; };
+		3D1F14911ADF5202003A64EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224567C1107B968500F10948 /* AVFoundation.framework */; };
 		3D29C84E1A47A6A700C4233F /* qrcode_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D29C8481A47A6A700C4233F /* qrcode_iPhone.storyboard */; };
 		3D29C84F1A47A6A700C4233F /* qrcode_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D29C8491A47A6A700C4233F /* qrcode_iPad.storyboard */; };
 		3D29C8501A47A6A700C4233F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D29C84B1A47A6A700C4233F /* ViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		3D29C8511A47A6A700C4233F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D29C84C1A47A6A700C4233F /* Images.xcassets */; };
 		3D29C8521A47A6A700C4233F /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D29C84D1A47A6A700C4233F /* beep.mp3 */; };
 		3D2B12971AB8010A0016A4C7 /* FriendsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B12961AB8010A0016A4C7 /* FriendsListViewController.m */; };
-		3D2B66C11B1818C50007D63F /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2B66C01B1818C50007D63F /* phone.png */; };
-		3D310ABC1B1BF67D00EBC5CC /* web.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D310ABB1B1BF67D00EBC5CC /* web.png */; };
 		3D31415C1ADE63910044F38F /* routes_over_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D31415B1ADE63910044F38F /* routes_over_landscape.png */; };
 		3D32C7A41A5A42F600B4B79E /* test.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 3D32C7A31A5A42F600B4B79E /* test.ovpn */; };
 		3D3300371AD36DDA00046584 /* libopenh264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22509041196BD902007863F6 /* libopenh264.a */; };
@@ -348,9 +347,6 @@
 		3D56BAA11A7B85E600A476A2 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56BA991A7B85E600A476A2 /* SWTableViewCell.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		3D56BAA21A7B85E600A476A2 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56BA9B1A7B85E600A476A2 /* SWUtilityButtonTapGestureRecognizer.m */; };
 		3D56BAA31A7B85E600A476A2 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56BA9D1A7B85E600A476A2 /* SWUtilityButtonView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		3D5FA4AC1B14364200EC4C62 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA4A91B14364200EC4C62 /* location.png */; };
-		3D5FA4AD1B14364200EC4C62 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA4AA1B14364200EC4C62 /* email.png */; };
-		3D5FA4B01B14415300EC4C62 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA4AF1B14415300EC4C62 /* camera.png */; };
 		3D65EDB01ADE5D4A000E0A69 /* UITransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D32460E5159D9AAD00BA7F3A /* UITransparentView.m */; };
 		3D65EDB11ADE5D4B000E0A69 /* UITransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D32460E5159D9AAD00BA7F3A /* UITransparentView.m */; };
 		3D65EDB51ADE609C000E0A69 /* libNinePatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D65EDB41ADE609C000E0A69 /* libNinePatch.a */; };
@@ -361,7 +357,6 @@
 		3DB9561C1A4014B2006EEE85 /* linphone-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D1107310486CEB800E47090 /* linphone-Info.plist */; };
 		3DB9561D1A401501006EEE85 /* LinphoneTester Tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F08F118A19C09C6B007D70C2 /* LinphoneTester Tests-Info.plist */; };
 		3DB956231A402150006EEE85 /* ChatDemo2.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E334A1A395B9900FBB9AD /* ChatDemo2.sqlite */; };
-		3DCA8B7F1B045386006D40F4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224567C1107B968500F10948 /* AVFoundation.framework */; };
 		3DD7101C1A4029F9000B2026 /* ChatDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DD710191A4029EB000B2026 /* ChatDataModel.xcdatamodeld */; };
 		3DD94D351ACD10F000177D19 /* libNinePatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B90E1915C2CB5800F64F8C /* libNinePatch.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		3DD94D361ACD10F000177D19 /* libXMLRPC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3554ED115CA79AA00478841 /* libXMLRPC.a */; settings = {ATTRIBUTES = (Required, ); }; };
@@ -2035,8 +2030,6 @@
 		3D29C84D1A47A6A700C4233F /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
 		3D2B12951AB8010A0016A4C7 /* FriendsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsListViewController.h; sourceTree = "<group>"; };
 		3D2B12961AB8010A0016A4C7 /* FriendsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsListViewController.m; sourceTree = "<group>"; };
-		3D2B66C01B1818C50007D63F /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
-		3D310ABB1B1BF67D00EBC5CC /* web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web.png; sourceTree = "<group>"; };
 		3D31415B1ADE63910044F38F /* routes_over_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = routes_over_landscape.png; path = Resources/routes_over_landscape.png; sourceTree = "<group>"; };
 		3D32C7A31A5A42F600B4B79E /* test.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.ovpn; sourceTree = "<group>"; };
 		3D3300421AD3B8A300046584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/ChatController~ipad.xib"; sourceTree = "<group>"; };
@@ -2081,9 +2074,6 @@
 		3D5A8E8A1A22FE2E00F1251D /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		3D5A8E8B1A22FE2E00F1251D /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		3D5A8E8C1A22FE2E00F1251D /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		3D5FA4A91B14364200EC4C62 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
-		3D5FA4AA1B14364200EC4C62 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
-		3D5FA4AF1B14415300EC4C62 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
 		3D65EDB41ADE609C000E0A69 /* libNinePatch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNinePatch.a; sourceTree = "<group>"; };
 		3D65EDB61ADE60AC000E0A69 /* libXMLRPC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libXMLRPC.a; sourceTree = "<group>"; };
 		3D65EDB81ADE60B8000E0A69 /* liblinphone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblinphone.a; path = "liblinphone-sdk/apple-darwin/lib/liblinphone.a"; sourceTree = "<group>"; };
@@ -2894,8 +2884,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D0E33331A395AF200FBB9AD /* CoreLocation.framework in Frameworks */,
-				3DCA8B7F1B045386006D40F4 /* AVFoundation.framework in Frameworks */,
+				3D1F14911ADF5202003A64EA /* AVFoundation.framework in Frameworks */,
 				3D3300371AD36DDA00046584 /* libopenh264.a in Frameworks */,
 				3DD94D4A1ACD3CC900177D19 /* libmsopenh264.a in Frameworks */,
 				3DD94D411ACD32F100177D19 /* libstdc++.6.dylib in Frameworks */,
@@ -2906,6 +2895,7 @@
 				22D1B68112A3E0BE001AE361 /* libresolv.dylib in Frameworks */,
 				3D0E33371A395B3100FBB9AD /* libxml2.dylib in Frameworks */,
 				3D0E33351A395B1900FBB9AD /* CoreData.framework in Frameworks */,
+				3D0E33331A395AF200FBB9AD /* CoreLocation.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
@@ -4190,11 +4180,6 @@
 		F0B89C2318DC90850050B60E /* images */ = {
 			isa = PBXGroup;
 			children = (
-				3D2B66C01B1818C50007D63F /* phone.png */,
-				3D310ABB1B1BF67D00EBC5CC /* web.png */,
-				3D5FA4A91B14364200EC4C62 /* location.png */,
-				3D5FA4AA1B14364200EC4C62 /* email.png */,
-				3D5FA4AF1B14415300EC4C62 /* camera.png */,
 				3D0422401A241052008637DF /* TTOpenInAppActivity.png */,
 				3D0422411A241052008637DF /* TTOpenInAppActivity@2x.png */,
 				3D0422421A241052008637DF /* TTOpenInAppActivity7.png */,
@@ -5030,7 +5015,6 @@
 				D3432A71158A45AF001C6B0B /* led_inprogress.png in Resources */,
 				D3432A73158A45AF001C6B0B /* led_disconnected.png in Resources */,
 				D37295DB158B3C9600D2C0C7 /* video_off_disabled.png in Resources */,
-				3D310ABC1B1BF67D00EBC5CC /* web.png in Resources */,
 				D36C43D1158F2F370048BA40 /* cell_call.png in Resources */,
 				D36C43D3158F2F370048BA40 /* cell_conference.png in Resources */,
 				D36C43D5158F2F370048BA40 /* header_conference.png in Resources */,
@@ -5118,7 +5102,6 @@
 				D3B9A3E315A58C450096EA4E /* chat_ok_over.png in Resources */,
 				D3B9A3E515A58C450096EA4E /* chat_send_default.png in Resources */,
 				D3B9A3E715A58C450096EA4E /* chat_send_over.png in Resources */,
-				3D2B66C11B1818C50007D63F /* phone.png in Resources */,
 				3D04224D1A241052008637DF /* TTOpenInAppActivity8@3x.png in Resources */,
 				D32B6E2415A5B2020033019F /* chat_send_disabled.png in Resources */,
 				D3A8BB7415A6C81A00F96BE5 /* UIChatRoomCell.xib in Resources */,
@@ -5172,7 +5155,6 @@
 				D3C31A3615BD8DED008ED271 /* dialer_alt_back_default_landscape.png in Resources */,
 				D3C31A3815BD8DED008ED271 /* dialer_alt_back_over_landscape.png in Resources */,
 				D3C31A3A15BD8DED008ED271 /* dialer_alt_default_landscape.png in Resources */,
-				3D5FA4B01B14415300EC4C62 /* camera.png in Resources */,
 				D3C31A3C15BD8DED008ED271 /* dialer_alt_over_landscape.png in Resources */,
 				D3C31A3E15BD8DED008ED271 /* hangup_default_landscape.png in Resources */,
 				D3C31A4015BD8DED008ED271 /* hangup_over_landscape.png in Resources */,
@@ -5263,7 +5245,6 @@
 				D3A74F0215C69392001500B9 /* history_selected_landscape~ipad.png in Resources */,
 				D3A74F0415C69392001500B9 /* history_selected~ipad.png in Resources */,
 				3D56BA901A7B836300A476A2 /* settings_default.png in Resources */,
-				3D5FA4AD1B14364200EC4C62 /* email.png in Resources */,
 				D3A74F0615C69392001500B9 /* micro_off_default~ipad.png in Resources */,
 				D3A74F0815C69392001500B9 /* micro_off_disabled~ipad.png in Resources */,
 				D3A74F0A15C69392001500B9 /* micro_off_over~ipad.png in Resources */,
@@ -5406,7 +5387,6 @@
 				D3F5F9231609A86700D3DA1A /* setup_start_disabled_landscape~ipad.png in Resources */,
 				D3F5F9251609A86700D3DA1A /* setup_start_disabled~ipad.png in Resources */,
 				D3F5F9271609A86700D3DA1A /* setup_start_over_landscape~ipad.png in Resources */,
-				3D5FA4AC1B14364200EC4C62 /* location.png in Resources */,
 				D3F5F9291609A86700D3DA1A /* setup_start_over~ipad.png in Resources */,
 				D3F5F92B1609A86700D3DA1A /* setup_welcome_logo~ipad.png in Resources */,
 				D3F5F987160B1A0900D3DA1A /* chat_progressbar_background.png in Resources */,
@@ -6979,7 +6959,6 @@
 					HAVE_SSL,
 					HAVE_OPENH264,
 					HAVE_G729,
-					DEBUG,
 				);
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				HEADER_SEARCH_PATHS = (
@@ -7244,7 +7223,6 @@
 					HAVE_SSL,
 					HAVE_OPENH264,
 					HAVE_G729,
-					DEBUG,
 				);
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				HEADER_SEARCH_PATHS = (
@@ -7340,7 +7318,6 @@
 					HAVE_SSL,
 					HAVE_OPENH264,
 					HAVE_G729,
-					DEBUG,
 				);
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				HEADER_SEARCH_PATHS = (

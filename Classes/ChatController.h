@@ -8,14 +8,12 @@
 #import "MessageListController.h"
 
 #import "UICompositeViewController.h"
-@interface ChatController : UIViewController<UITextViewDelegate,NSFetchedResultsControllerDelegate,UITableViewDelegate,UITableViewDataSource,UIAlertViewDelegate,UICompositeViewDelegate,CLLocationManagerDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate>{
+@interface ChatController : UIViewController<UITextViewDelegate,NSFetchedResultsControllerDelegate,UITableViewDelegate,UITableViewDataSource,UIAlertViewDelegate,UICompositeViewDelegate>{
     CGRect keyboardEndFrame;
     IBOutlet UIImageView *inputContainer;
     IBOutlet UITableView *DataTable;
     IBOutlet UITextView *inputView;
-    IBOutlet UIButton *emailbutton;
-    IBOutlet UIButton *locationbutton;
-    IBOutlet UIButton *camerabutton;
+   
     CGFloat previousContentHeight;
     PersonEntity *selfEntity;
     PersonEntity *friendEntity;
@@ -24,7 +22,6 @@
     NSMutableArray *messageArray;
     NSFetchedResultsController *fetchController;
     BOOL firstTime;
-    BOOL secondTime;
     
 }
 
