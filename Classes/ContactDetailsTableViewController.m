@@ -660,23 +660,23 @@ static const ContactSections_e contactSections[ContactSections_MAX] = {ContactSe
             CFStringRef valueRef = ABMultiValueCopyValueAtIndex(lMap, index);
             if(valueRef != NULL) {
                 NSString *email = (NSString *)valueRef;
-                UIAlertView* alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Add XMPP friend",nil)
-                                                                message:nil
-                                                               delegate:self
-                                                      cancelButtonTitle:NSLocalizedString(@"Cancel",nil)
-                                                      otherButtonTitles:NSLocalizedString(@"Add",nil), nil];
-                
-                
-                alert.alertViewStyle = UIAlertViewStyleLoginAndPasswordInput;
-                
-                [alert textFieldAtIndex:0].text = email;
-                [alert textFieldAtIndex:1].placeholder = NSLocalizedString(@"Alias",nil);
-                [alert textFieldAtIndex:1].secureTextEntry = NO;
-                alert.tag=1;
-                // Pop UIAlertView
-                
+                NSRange tRange = [email rangeOfString:@"@"];
+                NSString *selfUserName = [[NSUserDefaults standardUserDefaults]objectForKey:kXMPPmyJID];
+                NSRange search = [selfUserName rangeOfString:@"@"];
+                NSString *mailhost = [email substringFromIndex:tRange.location+1];
+                NSString *hostname = [selfUserName substringFromIndex:search.location+1];
+                if([mailhost isEqualToString:hostname]){
+                  UIAlertView *alert = [[UIAlertView alloc] initWithTitle:email message:nil delegate:self cancelButtonTitle:NSLocalizedString(@"Cancel",nil) otherButtonTitles:NSLocalizedString(@"Add XMPP friend",nil) ,NSLocalizedString(@"Send Email",nil), nil];
+
+                alert.tag =2;
                 [alert show];
-               
+                }
+                else{
+                    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:email message:nil delegate:self cancelButtonTitle:NSLocalizedString(@"Cancel",nil) otherButtonTitles: NSLocalizedString(@"Send Email",nil), nil];
+                    
+                    alert.tag =3;
+                    [alert show];
+                }
             }
             CFRelease(lMap);
         }
@@ -744,8 +744,42 @@ static const ContactSections_e contactSections[ContactSections_MAX] = {ContactSe
 }
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
     //alertview, tag1 is add xmpp friend
-    
-    
+    if(alertView.tag ==2){
+    switch (buttonIndex) {
+        case 0:
+            NSLog(@"Cancel Button Pressed");
+            break;
+        case 1:
+            NSLog(@"Button 1 Pressed");
+                            UIAlertView* alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Add XMPP friend",nil)
+                                                                            message:nil
+                                                                           delegate:self
+                                                                  cancelButtonTitle:NSLocalizedString(@"Cancel",nil)
+                                                                  otherButtonTitles:NSLocalizedString(@"Add",nil), nil];
+            
+            
+                            alert.alertViewStyle = UIAlertViewStyleLoginAndPasswordInput;
+            
+                            [alert textFieldAtIndex:0].text = alertView.title;
+                            [alert textFieldAtIndex:1].placeholder = NSLocalizedString(@"Alias",nil);
+                            [alert textFieldAtIndex:1].secureTextEntry = NO;
+                            alert.tag=1;
+                            // Pop UIAlertView
+                            [alert show];
+            break;
+        case 2:
+            NSLog(@"Button 2 Pressed");
+            NSString *email = alertView.title;
+            email = [email stringByAddingPercentEscapesUsingEncoding: NSUTF8StringEncoding];
+            NSString *urlString = [NSString stringWithFormat: @"mailto:%@", email];
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]];
+            
+            break;
+      default:
+            break;
+    }
+      
+    }
     if(alertView.tag==1 && buttonIndex ==1){
 
         
@@ -759,7 +793,27 @@ static const ContactSections_e contactSections[ContactSections_MAX] = {ContactSe
             [[PhoneMainView instance] changeCurrentView:[ChatViewController compositeViewDescription] push:TRUE];
         }
     }
+    if(alertView.tag ==3){
+        switch (buttonIndex) {
+            case 0:
+                NSLog(@"Cancel Button Pressed");
+                break;
+        
+            case 1:
+                NSLog(@"Button 1 Pressed");
+                NSString *email = alertView.title;
+                email = [email stringByAddingPercentEscapesUsingEncoding: NSUTF8StringEncoding];
+                NSString *urlString = [NSString stringWithFormat: @"mailto:%@", email];
+                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]];
+                
+                break;
+            default:
+                break;
+        }
+
+    }
 }
+
 
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath  {
     [LinphoneUtils findAndResignFirstResponder:[self tableView]];

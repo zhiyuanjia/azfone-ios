@@ -920,6 +920,11 @@ static UICompositeViewDescription *compositeDescription = nil;
         
         [[PhoneMainView instance] changeCurrentView:[AboutViewController compositeViewDescription] push:TRUE];
     }
+    else if([key isEqual:@"trial_account"]){
+        
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.yahoo.com.tw"]];
+    
+    }
     else if([key isEqual:@"exit_azfone_button"]) {
         
         UIAlertView* alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Are you sure to quit AzFone?",nil)
@@ -970,6 +975,8 @@ static UICompositeViewDescription *compositeDescription = nil;
         [[LinphoneManager instance]	destroyLibLinphone];
         [[LinphoneManager instance]	startLibLinphone];
         [[PhoneMainView instance] startUp];
+        
+        
     } else if([key isEqual:@"reconnectxmpp_azfone_button"]) {
         
         //if there are no network ,do not reconnect xmpp just change view to xmpp list.

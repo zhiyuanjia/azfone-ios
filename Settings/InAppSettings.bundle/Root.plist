@@ -208,9 +208,19 @@
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string></string>
+			<string>Trial Account</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>IASKButtonSpecifier</string>
+			<key>IASKTextAlignment</key>
+			<string>IASKUITextAlignmentLeft</string>
+			<key>Title</key>
+			<string>Trial Account</string>
+			<key>Key</key>
+			<string>trial_account</string>
 		</dict>
 		<dict>
 			<key>Key</key>

@@ -27,7 +27,7 @@
 #import "Utils.h"
 
 #include "linphone/linphonecore.h"
-
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 
 @implementation DialerViewController
 
@@ -69,34 +69,34 @@
 }
 
 - (void)dealloc {
-	[addressField release];
+    [addressField release];
     [addContactButton release];
     [backButton release];
     [eraseButton release];
-	[callButton release];
+    [callButton release];
     [addCallButton release];
     [transferButton release];
-
-	[oneButton release];
-	[twoButton release];
-	[threeButton release];
-	[fourButton release];
-	[fiveButton release];
-	[sixButton release];
-	[sevenButton release];
-	[eightButton release];
-	[nineButton release];
-	[starButton release];
-	[zeroButton release];
-	[sharpButton release];
-
+    
+    [oneButton release];
+    [twoButton release];
+    [threeButton release];
+    [fourButton release];
+    [fiveButton release];
+    [sixButton release];
+    [sevenButton release];
+    [eightButton release];
+    [nineButton release];
+    [starButton release];
+    [zeroButton release];
+    [sharpButton release];
+    
     [videoPreview release];
     [videoCameraSwitch release];
-
+    
     // Remove all observers
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-
-	[super dealloc];
+    
+    [super dealloc];
 }
 
 
@@ -113,7 +113,7 @@ static UICompositeViewDescription *compositeDescription = nil;
                                                                  tabBar:@"UIMainBar"
                                                           tabBarEnabled:true
                                                              fullscreen:false
-                                                          landscapeMode:[LinphoneManager runningOnIpad]
+                                                          landscapeMode:IS_IPAD
                                                            portraitMode:true];
         compositeDescription.darkBackground = true;
     }
@@ -125,46 +125,45 @@ static UICompositeViewDescription *compositeDescription = nil;
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-
+    
     // Set observer
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(callUpdateEvent:)
                                                  name:kLinphoneCallUpdate
                                                object:nil];
-
+    
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(coreUpdateEvent:)
                                                  name:kLinphoneCoreUpdate
                                                object:nil];
-
+    
     // technically not needed, but older versions of linphone had this button
     // disabled by default. In this case, updating by pushing a new version with
     // xcode would result in the callbutton being disabled all the time.
     // We force it enabled anyway now.
     [callButton setEnabled:TRUE];
-
+    
     // Update on show
     LinphoneManager *mgr=[LinphoneManager instance];
     LinphoneCore* lc = [LinphoneManager getLc];
     LinphoneCall* call = linphone_core_get_current_call(lc);
     LinphoneCallState state = (call != NULL)?linphone_call_get_state(call): 0;
     [self callUpdate:call state:state];
-
-    if([LinphoneManager runningOnIpad]) {
-        if(linphone_core_video_enabled(lc) && [mgr lpConfigBoolForKey:@"preview_preference"]) {
+    
+    if(IS_IPAD) {
+        LinphoneCore* lc = [LinphoneManager getLc];
+        if(linphone_core_video_enabled(lc) && linphone_core_video_preview_enabled(lc)) {
             linphone_core_set_native_preview_window_id(lc, (unsigned long)videoPreview);
             [backgroundView setHidden:FALSE];
             [videoCameraSwitch setHidden:FALSE];
         } else {
             linphone_core_set_native_preview_window_id(lc, (unsigned long)NULL);
-            linphone_core_enable_video_preview(lc, FALSE);
             [backgroundView setHidden:TRUE];
             [videoCameraSwitch setHidden:TRUE];
         }
     }
-
     [addressField setText:@""];
-
+    
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_6_0 // attributed string only available since iOS6
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7) {
         // fix placeholder bar color in iOS7
@@ -176,17 +175,17 @@ static UICompositeViewDescription *compositeDescription = nil;
         [placeHolderString release];
     }
 #endif
-
+    
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-
+    
     // Remove observer
     [[NSNotificationCenter defaultCenter] removeObserver:self
                                                     name:kLinphoneCallUpdate
                                                   object:nil];
-
+    
     [[NSNotificationCenter defaultCenter] removeObserver:self
                                                     name:kLinphoneCoreUpdate
                                                   object:nil];
@@ -194,26 +193,32 @@ static UICompositeViewDescription *compositeDescription = nil;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-	[zeroButton    setDigit:'0'];
-	[oneButton     setDigit:'1'];
-	[twoButton     setDigit:'2'];
-	[threeButton   setDigit:'3'];
-	[fourButton    setDigit:'4'];
-	[fiveButton    setDigit:'5'];
-	[sixButton     setDigit:'6'];
-	[sevenButton   setDigit:'7'];
-	[eightButton   setDigit:'8'];
-	[nineButton    setDigit:'9'];
-	[starButton    setDigit:'*'];
-	[sharpButton   setDigit:'#'];
-
+    
+    [zeroButton    setDigit:'0'];
+    [oneButton     setDigit:'1'];
+    [twoButton     setDigit:'2'];
+    [threeButton   setDigit:'3'];
+    [fourButton    setDigit:'4'];
+    [fiveButton    setDigit:'5'];
+    [sixButton     setDigit:'6'];
+    [sevenButton   setDigit:'7'];
+    [eightButton   setDigit:'8'];
+    [nineButton    setDigit:'9'];
+    [starButton    setDigit:'*'];
+    [sharpButton   setDigit:'#'];
+    
     [addressField setAdjustsFontSizeToFitWidth:TRUE]; // Not put it in IB: issue with placeholder size
-
-    if([LinphoneManager runningOnIpad]) {
-        if ([LinphoneManager instance].frontCamId != nil) {
-            // only show camera switch button if we have more than 1 camera
+    
+    if(IS_IPAD) {
+        LinphoneCore* lc = [LinphoneManager getLc];
+        if(linphone_core_video_enabled(lc) && linphone_core_video_preview_enabled(lc)) {
+            linphone_core_set_native_preview_window_id(lc, (unsigned long)videoPreview);
+            [backgroundView setHidden:FALSE];
             [videoCameraSwitch setHidden:FALSE];
+        } else {
+            linphone_core_set_native_preview_window_id(lc, (unsigned long)NULL);
+            [backgroundView setHidden:TRUE];
+            [videoCameraSwitch setHidden:TRUE];
         }
     }
 }
@@ -254,7 +259,7 @@ static UICompositeViewDescription *compositeDescription = nil;
 }
 
 - (void)coreUpdateEvent:(NSNotification*)notif {
-    if([LinphoneManager runningOnIpad]) {
+    if(IS_IPAD) {
         LinphoneCore* lc = [LinphoneManager getLc];
         if(linphone_core_video_enabled(lc) && linphone_core_video_preview_enabled(lc)) {
             linphone_core_set_native_preview_window_id(lc, (unsigned long)videoPreview);
@@ -342,7 +347,7 @@ static UICompositeViewDescription *compositeDescription = nil;
     [ContactSelection enableEmailFilter:FALSE];
     ContactsViewController *controller = DYNAMIC_CAST([[PhoneMainView instance] changeCurrentView:[ContactsViewController compositeViewDescription] push:TRUE], ContactsViewController);
     if(controller != nil) {
-
+        
     }
 }
 
